@@ -233,3 +233,76 @@ footer {
     }
   }
 }
+
+// .about-body {
+//   background: url('../img/eu.png');
+//   background-size: cover;
+// }
+
+.about-box {
+  margin-bottom: 5%;
+  .about-title-box {
+    font-family: $default-font;
+    color: $default-white;
+    background: url('../img/about.png');
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    @include mobile {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  .about-title-box-1 {
+    font-family: $default-font;
+    color: $default-white;
+    background-color: $default-pink;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    @include mobile {
+      h5 {
+        font-size: 15px;
+      }
+    }
+  }
+  .slider {
+    @include mobile {
+      height: 360px !important;
+    }
+    .slides {
+     @include mobile {
+       height: 300px !important;
+     }
+     li, ul {
+      @include mobile {
+        height: 300px;
+      }
+    }
+  }
+}
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  @include mobile {
+    width: 150px;
+  }
+}
+p {
+  font-family: $text-font;
+  text-align: center;
+}
+.row {
+  padding: 15px;
+}
+a {
+  display: block;
+  margin: 0 auto;
+  background-color: $default-pink;
+  :hover {
+    background-color: $default-pink;
+  }
+}
+}

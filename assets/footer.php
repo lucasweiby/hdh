@@ -1,4 +1,4 @@
- <footer>
+ <footer class="rodape">
  	<div class="container">
  		<div class="row">
  			<div class="col m4 s6 copy">

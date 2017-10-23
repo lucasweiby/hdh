@@ -188,4 +188,54 @@ footer {
     footer tr td {
       padding: 0; }
 
+.about-box {
+  margin-bottom: 5%; }
+  .about-box .about-title-box {
+    font-family: "Bubbler One", sans-serif;
+    color: #fff;
+    background: url("../img/about.png");
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder; }
+    @media only screen and (max-width: 600px) {
+      .about-box .about-title-box h1 {
+        font-size: 30px; } }
+  .about-box .about-title-box-1 {
+    font-family: "Bubbler One", sans-serif;
+    color: #fff;
+    background-color: #F71290;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder; }
+    @media only screen and (max-width: 600px) {
+      .about-box .about-title-box-1 h5 {
+        font-size: 15px; } }
+  @media only screen and (max-width: 600px) {
+    .about-box .slider {
+      height: 360px !important; } }
+  @media only screen and (max-width: 600px) {
+    .about-box .slider .slides {
+      height: 300px !important; } }
+  @media only screen and (max-width: 600px) {
+    .about-box .slider .slides li, .about-box .slider .slides ul {
+      height: 300px; } }
+  .about-box img {
+    width: 300px;
+    display: block;
+    margin: 0 auto; }
+    @media only screen and (max-width: 600px) {
+      .about-box img {
+        width: 150px; } }
+  .about-box p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center; }
+  .about-box .row {
+    padding: 15px; }
+  .about-box a {
+    display: block;
+    margin: 0 auto;
+    background-color: #F71290; }
+    .about-box a :hover {
+      background-color: #F71290; }
+
 /*# sourceMappingURL=style.css.map */

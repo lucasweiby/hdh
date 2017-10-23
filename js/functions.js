@@ -111,3 +111,30 @@ sr.reveal('.margem', {
 	reset: true,
 	origin: 'top'
 });
+
+sr.reveal('.rodape', {
+	duration: 500,
+	viewFactor: 0.3,
+	reset: true,
+	origin: 'bottom'
+})
+
+sr.reveal('.about-title', {
+	duration: 500,
+	viewFactor: 0.3,
+	reset:true,
+	origin: 'top'
+});
+
+sr.reveal('.img-about', {
+	duration: 500,
+	viewFactor: 0.3,
+	reset: true,
+})
+
+sr.reveal('.text-about', {
+	duration: 500,
+	viewFactor: 0.3,
+	reset: true,
+	delay: 300
+})
