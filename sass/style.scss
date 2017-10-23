@@ -142,11 +142,13 @@
   form {
     input {
       border-color: $default-blue;
+      font-weight: bold;
     }
     textarea {
       border-color: $default-blue;
     }
     label {
+      font-weight: bold !important;
       color: $default-pink;
     }
     .btn, .btn-large {
@@ -170,6 +172,7 @@
     p {
       margin-top: -10px;
       color: $default-blue;
+      font-weight: bold;
       @include tablet {
         font-size: 20px;
       }
@@ -200,11 +203,33 @@
 }
 
 footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1px 0;
   font-family: $default-font;
+  color: $default-blue;
+  background-color: #fafafa;
   font-weight: bold;
-  color: #fff;
-  background-color: $default-blue;
+  .copy {
+    @include mobile {
+      font-size: 12px;
+    }
+  }
   img {
-    height: 20px;
+    width: 50px;
+    margin-left: 50%;
+  }
+  tr {
+    float: right;
+    .social-i {
+      color: $default-blue;
+      width: 20px;
+    }
+    td {
+      padding: 0;
+    }
   }
 }

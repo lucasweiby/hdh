@@ -91,4 +91,23 @@ sr.reveal('.more', {
 	reset: true
 });
 
+sr.reveal('.um', {
+	duration: 500,
+	viewFactor: 0.3,
+	reset: true
+});
 
+sr.reveal('.dois', {
+	duration: 500,
+	viewFactor: 0.3,
+	delay: 200,
+	reset: true
+});
+
+sr.reveal('.margem', {
+	duration: 500,
+	viewFactor: 0.3,
+	delay: 500,
+	reset: true,
+	origin: 'top'
+});

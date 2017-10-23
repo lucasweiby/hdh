@@ -114,10 +114,12 @@
 #contact {
   font-family: "Bubbler One", sans-serif; }
   #contact form input {
-    border-color: #6699ff; }
+    border-color: #6699ff;
+    font-weight: bold; }
   #contact form textarea {
     border-color: #6699ff; }
   #contact form label {
+    font-weight: bold !important;
     color: #F71290; }
   #contact form .btn, #contact form .btn-large {
     width: 100%;
@@ -136,7 +138,8 @@
           text-align: center; } }
     #contact .text-contact p {
       margin-top: -10px;
-      color: #6699ff; }
+      color: #6699ff;
+      font-weight: bold; }
       @media only screen and (min-width: 600px) and (max-width: 1200px) {
         #contact .text-contact p {
           font-size: 20px; } }
@@ -161,11 +164,28 @@
     background-color: #F71290; }
 
 footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1px 0;
   font-family: "Bubbler One", sans-serif;
-  font-weight: bold;
-  color: #fff;
-  background-color: #6699ff; }
+  color: #6699ff;
+  background-color: #fafafa;
+  font-weight: bold; }
+  @media only screen and (max-width: 600px) {
+    footer .copy {
+      font-size: 12px; } }
   footer img {
-    height: 20px; }
+    width: 50px;
+    margin-left: 50%; }
+  footer tr {
+    float: right; }
+    footer tr .social-i {
+      color: #6699ff;
+      width: 20px; }
+    footer tr td {
+      padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

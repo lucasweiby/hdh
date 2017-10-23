@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="text-contact">
-				<h1>Alguma dúvida?</h1>
-				<p>Entre em contato conosco!</p>
+				<h1 class="um">Alguma dúvida?</h1>
+				<p class="dois">Entre em contato conosco!</p>
 			</div>
 			<form class="margem col lg12 m12 s12">
 				<div class="row">
@@ -28,7 +28,7 @@
 						<label for="textarea1">Mensagem</label>
 					</div>
 				</div>
-				<input type="submit" class="waves-effect waves-light btn" value="Enviar" />    
+				<input type="submit" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
 			</form>
 		</div>
 	</div>
