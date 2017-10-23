@@ -1,0 +1,25 @@
+@mixin desktop-lg {
+  @media only screen and (min-width: #{$desktop-lg-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media only screen and (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (min-width: #{$mobile-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media only screen and (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+@mixin mobile-xs {
+  @media only screen and (max-width: #{$mobile-xs-width}) {
+    @content;
+  }
+}

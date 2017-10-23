@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Bubbler+One");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.brand-logo img {
+  padding: 0 20%; }
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .brand-logo img {
+      margin: -45%; } }
+  @media only screen and (max-width: 600px) {
+    .brand-logo img {
+      margin: -45%; } }
+
+.nav-wrapper {
+  background-color: #fff; }
+
+.nav-item {
+  color: #6699ff;
+  font-family: "Bubbler One", sans-serif;
+  font-weight: bold; }
+
+.nav-img {
+  height: 50px;
+  width: auto; }
+
+.button-collapse {
+  color: #6699ff; }
+
+.box-sobre {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background: url("../img/about.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .box-sobre .about-card {
+    display: inline-block;
+    max-width: 600px;
+    height: auto;
+    padding: 35px;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    @media only screen and (max-width: 600px) {
+      .box-sobre .about-card {
+        height: 350px; } }
+    .box-sobre .about-card h3 {
+      font-family: "Bubbler One", sans-serif;
+      color: #F71290;
+      font-weight: bolder; }
+      @media only screen and (max-width: 600px) {
+        .box-sobre .about-card h3 {
+          font-size: 20px; } }
+    @media only screen and (max-width: 600px) {
+      .box-sobre .about-card p {
+        font-size: 12px; } }
+    .box-sobre .about-card a {
+      background-color: #F71290; }
+    .box-sobre .about-card .cont {
+      color: #F71290;
+      font-size: 20px; }
+  .box-sobre .align-top {
+    align-self: flex-start; }
+  .box-sobre .align-bottom {
+    align-self: flex-end; }
+
+#box-countdown .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  height: auto;
+  margin: 10%; }
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #box-countdown .logo {
+      max-width: 200px;
+      height: auto; } }
+  @media only screen and (max-width: 600px) {
+    #box-countdown .logo {
+      max-width: 200px;
+      height: auto; } }
+#box-countdown .countdownContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10px;
+  font-family: "Bubbler One", sans-serif;
+  font-weight: bold; }
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #box-countdown .countdownContainer {
+      margin: 50px 20px; } }
+  #box-countdown .countdownContainer td {
+    padding: 0 30px;
+    text-align: center; }
+    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+      #box-countdown .countdownContainer td {
+        padding: 0 10px; } }
+    @media only screen and (max-width: 600px) {
+      #box-countdown .countdownContainer td {
+        padding: 0 10px; } }
+  #box-countdown .countdownContainer .legend-cont {
+    color: #6699ff;
+    font-weight: bold; }
+  #box-countdown .countdownContainer .title-cont {
+    color: #F71290; }
+    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+      #box-countdown .countdownContainer .title-cont {
+        font-size: 30px; } }
+    @media only screen and (max-width: 600px) {
+      #box-countdown .countdownContainer .title-cont {
+        font-size: 30px; } }
+#box-countdown .info {
+  font-size: 80px; }
+
+#contact {
+  font-family: "Bubbler One", sans-serif; }
+  #contact form input {
+    border-color: #6699ff; }
+  #contact form textarea {
+    border-color: #6699ff; }
+  #contact form label {
+    color: #F71290; }
+  #contact form .btn, #contact form .btn-large {
+    width: 100%;
+    background-color: #F71290; }
+  #contact .text-contact {
+    font-family: "Bubbler One", sans-serif; }
+    #contact .text-contact h1 {
+      color: #F71290;
+      font-weight: bold; }
+      @media only screen and (min-width: 600px) and (max-width: 1200px) {
+        #contact .text-contact h1 {
+          font-size: 40px; } }
+      @media only screen and (max-width: 600px) {
+        #contact .text-contact h1 {
+          font-size: 30px;
+          text-align: center; } }
+    #contact .text-contact p {
+      margin-top: -10px;
+      color: #6699ff; }
+      @media only screen and (min-width: 600px) and (max-width: 1200px) {
+        #contact .text-contact p {
+          font-size: 20px; } }
+      @media only screen and (max-width: 600px) {
+        #contact .text-contact p {
+          font-size: 15px;
+          text-align: center; } }
+  #contact .margem {
+    padding: 20px 0 !important; }
+
+.scrollToTop {
+  width: 100px;
+  height: 130px;
+  text-align: center;
+  background-color: #F71290;
+  font-weight: bold;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  display: none; }
+  .scrollToTop :hover {
+    background-color: #F71290; }
+
+footer {
+  font-family: "Bubbler One", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #6699ff; }
+  footer img {
+    height: 20px; }
+
+/*# sourceMappingURL=style.css.map */
