@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Hana, dul... HALLYU!</title>
+  <link rel="shortcut icon" href="img/hdh-logo.ico" type="image/x-icon">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
