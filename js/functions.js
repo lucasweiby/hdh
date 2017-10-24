@@ -65,9 +65,7 @@ $(document).ready(function(){
 				'message': $('#textarea1').val()
 			}
 		}).done(function(data){
-			//$("#modal-contato").show(100);
-
-			alert("deu bom")
+			$("#modal-contato").addClass('open');
 
 			$("#method").val("");
 			$("#first_name").val("");

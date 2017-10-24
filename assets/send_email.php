@@ -2,10 +2,10 @@
 
 	$to = "deboramoura@alu.ufc.br";
 	$subject = "Contato Hana dul Hallyu";
-	$first_name = $_REQUEST['first_name'];
-	$last_name = $_REQUEST['last_name'];
-	$sender = $_REQUEST['email'];
-	$message = $_REQUEST['message'];
+	$first_name = $_POST['first_name'];
+	$last_name = $_POST['last_name'];
+	$sender = $_POST['sender'];
+	$message = $_POST['message'];
 
 
 	$body = "<h3>Mensagem de Contato - Hana dul Hallyu</h3>";
