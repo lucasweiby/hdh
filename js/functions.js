@@ -55,7 +55,7 @@ $(document).ready(function(){
 		e.preventDefault();
 
 		$.ajax({
-			url: "assets/send_email.php",
+			url: "send_email.php",
 			type: "post",
 			dataType: "html",
 			data: {
