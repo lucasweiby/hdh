@@ -13,11 +13,11 @@
 	$body .="<h6><b>Email: </b></h6><p>$sender</p>";
 	$body .="<h6><b>Mensagem: </b></h6><p>$message</p>";
 
-	$header = "From: $sender Reply-to: $sender";
+	$header = "From:$sender Reply-to:$sender";
 	$header .= "Content-Type: text/html; charset= utf-8";
 
 	mail($to,$subject,$body,$header);
 
-	header('Location: index.php);
+	header('Location: index.php#contact');
 
 ?>
