@@ -50,31 +50,7 @@ $(document).ready(function(){
 
 
 
-	//send email
-	$('#form-contact').submit(function(e)){
-		e.preventDefault();
 
-		$.ajax({
-			url: "send_email.php",
-			type: "post",
-			dataType: "html",
-			data: {
-				'first_name': $('#first_name').val(),
-				'last_name': $('#last_name').val(),
-				'sender': $('#email').val(),
-				'message': $('#textarea1').val()
-			}
-		}).done(function(data){
-			$("#modal-contato").addClass('open');
-
-			$("#method").val("");
-			$("#first_name").val("");
-			$("#last_name").val("");
-			$("#email").val("");
-			$("#textarea1").val("");
-
-		})
-	}
 });
 
 window.sr = ScrollReveal();
