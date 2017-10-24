@@ -1,6 +1,6 @@
 <?php 
 
-	$to = "deboramoura@alu.ufc.br";
+	$to = "lucas13662@gmail.com";
 	$subject = "Contato Hana dul Hallyu";
 	$first_name = $_POST['first_name'];
 	$last_name = $_POST['last_name'];
