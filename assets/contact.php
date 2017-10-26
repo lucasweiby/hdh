@@ -1,8 +1,8 @@
 <section id="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col lg6 m6">
-				<form id="form-contact" class="margem col lg12 m12 s12" action="send_email.php" method="POST">
+			<div class="col lg6 m6"> <!-- debora esteve aqui -->
+				<form id="form-contact" class="margem col lg12 m12 s12" action="send_email.php" name="form_contato" method="post">
 					<div class="row">
 						<div class="input-field col lg6 m6 s6">
 							<input id="first_name" name="first_name" type="text" class="validate">
