@@ -16,7 +16,7 @@ $hora_envio = date('H:i:s');
   margin:0px;
   font-family:Verdane;
   font-size:12px;
-  color: #ccc;
+  color: #666;
   }
   a{
   color: #666666;
@@ -28,7 +28,7 @@ $hora_envio = date('H:i:s');
   }
   </style>
     <html>
-        <table width='510' border='1' cellpadding='1' cellspacing='1' bgcolor='#CCCCCC'>
+        <table width='510' border='1' cellpadding='1' cellspacing='1' bgcolor='#EFEFEF'>
 		      <tr>
            <td width='500'>Nome: $first_name $last_name</td>
           </tr>
@@ -55,14 +55,14 @@ $hora_envio = date('H:i:s');
   // É necessário indicar que o formato do e-mail é html
   $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= 'From: $first_name $last_name < $email >';
+      $headers .= 'From: $email';
   
   //$headers .= "Bcc: $EmailPadrao\r\n";
   
   $enviaremail = mail($destino, $assunto, $arquivo, $headers);
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
+  echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";
