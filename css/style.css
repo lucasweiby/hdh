@@ -162,6 +162,23 @@
   display: none; }
   .scrollToTop :hover {
     background-color: #F71290; }
+  @media only screen and (max-width: 600px) {
+    .scrollToTop {
+      width: 30px;
+      height: 30px;
+      bottom: 70px;
+      right: 30px; }
+      .scrollToTop i {
+        font-size: 20px;
+        margin-top: -10px; } }
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .scrollToTop {
+      width: 30px;
+      height: 30px;
+      bottom: 70px;
+      right: 30px; }
+      .scrollToTop i {
+        font-size: 30px; } }
 
 footer {
   align-items: center;
@@ -176,7 +193,7 @@ footer {
   font-weight: bold; }
   @media only screen and (max-width: 600px) {
     footer .copy {
-      font-size: 12px; } }
+      font-size: 10px; } }
   footer img {
     width: 50px;
     margin-left: 50%; }

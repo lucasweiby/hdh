@@ -51,7 +51,8 @@
 
   <?php include 'assets/footer.php' ?>
 
-  <a href="#" class="scrollToTop btn-floating btn-large waves-effect waves-light"><i class="material-icons">arrow_upward</i></a>
+  <a href="#" class="scrollToTop btn-floating btn-large waves-effect waves-light hide-on-small-only"><i class="material-icons">arrow_upward</i></a>
+  <a href="#" class="scrollToTop btn-floating btn-small waves-effect waves-light hide-on-med-and-up"><i class="material-icons">arrow_upward</i></a>
 
 
   <!--Import jQuery before materialize.js-->

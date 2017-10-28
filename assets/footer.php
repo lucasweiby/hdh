@@ -2,7 +2,7 @@
  	<div class="container">
  		<div class="row">
  			<div class="col m4 s6 copy">
- 				© 2017 Todos os direitos reservados
+ 				© <?php echo date("Y");?> Todos os direitos reservados
  			</div>
  			<div class="col m4 logo-footer hide-on-small-only">
  				<img class="hvr-grow" src="img/hdh-logo.png" alt="">

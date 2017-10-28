@@ -115,8 +115,7 @@ sr.reveal('.margem', {
 
 sr.reveal('.rodape', {
 	duration: 500,
-	viewFactor: 0.3,
-	reset: true,
+	viewFactor: 0.2,
 	origin: 'bottom'
 })
 
@@ -138,4 +137,9 @@ sr.reveal('.text-about', {
 	viewFactor: 0.3,
 	reset: true,
 	delay: 300
+})
+
+sr.reveal('back', {
+	duration: 500,
+	viewFactor: 0.2
 })

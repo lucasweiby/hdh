@@ -200,6 +200,25 @@
   :hover {
     background-color: $default-pink;
   }
+  @include mobile {
+    width: 30px;
+    height: 30px;
+    bottom:70px;
+    right: 30px;
+    i {
+      font-size: 20px;
+      margin-top: -10px;
+    }
+  }
+  @include tablet {
+    width: 30px;
+    height: 30px;
+    bottom:70px;
+    right: 30px;
+    i {
+      font-size: 30px;
+    }
+  }
 }
 
 footer {
@@ -215,7 +234,7 @@ footer {
   font-weight: bold;
   .copy {
     @include mobile {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
   img {

@@ -70,9 +70,8 @@
 				</div>	
 			</div>
 		</div>
-
-		<a class="btn-floating btn-large waves-effect waves-light tooltipped more hide-on-small-only" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
-		<a class="btn-floating btn-small waves-effect waves-light tooltipped more hide-on-med-and-up center-align" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
+		<a class="back btn-floating btn-large waves-effect waves-light tooltipped hide-on-small-only" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
+		<a class="back btn-floating btn-small waves-effect waves-light tooltipped hide-on-med-and-up center-align" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
 	</div>
 
 	<!--Import jQuery before materialize.js-->
