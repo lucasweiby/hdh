@@ -113,12 +113,6 @@ sr.reveal('.margem', {
 	origin: 'top'
 });
 
-sr.reveal('.rodape', {
-	duration: 500,
-	viewFactor: 0.2,
-	origin: 'bottom'
-})
-
 sr.reveal('.about-title', {
 	duration: 500,
 	viewFactor: 0.3,
