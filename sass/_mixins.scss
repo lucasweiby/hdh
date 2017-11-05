@@ -23,3 +23,17 @@
     @content;
   }
 }
+
+@mixin default-shadow {
+  -webkit-box-shadow: 4px 6px 80px -16px rgba(0,0,0,0.59);
+  -moz-box-shadow: 4px 6px 80px -16px rgba(0,0,0,0.59);
+  box-shadow: 4px 6px 80px -16px rgba(0,0,0,0.59);
+}
+
+@mixin fade-hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

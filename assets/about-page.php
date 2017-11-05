@@ -26,7 +26,7 @@
 			<h5 class="about-title">Veja as fotos da 1ª edição do Hana, dul... HALLYU!</h5>
 		</div>
 
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="slider">
 					<ul class="slides">
@@ -69,7 +69,10 @@
 					</ul>
 				</div>	
 			</div>
-		</div>
+		</div> -->
+
+		<?php include 'gallery.php' ?>
+
 		<a class="back btn-floating btn-large waves-effect waves-light tooltipped hide-on-small-only" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
 		<a class="back btn-floating btn-small waves-effect waves-light tooltipped hide-on-med-and-up center-align" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
 	</div>

@@ -124,16 +124,62 @@ sr.reveal('.img-about', {
 	duration: 500,
 	viewFactor: 0.3,
 	reset: true,
-})
+});
 
 sr.reveal('.text-about', {
 	duration: 500,
 	viewFactor: 0.3,
 	reset: true,
 	delay: 300
-})
+});
 
 sr.reveal('back', {
 	duration: 500,
 	viewFactor: 0.2
-})
+});
+
+sr.reveal('.workshops', {
+	duration: 500,
+	viewFactor: 0.3, 
+	reset: true
+});
+
+sr.reveal('.prog', {
+	duration: 500,
+	viewFactor: 0.3, 
+	reset: true
+});
+
+sr.reveal('.line', {
+	duration: 500,
+	viewFactor: 0.3,
+	delay: 500,
+	reset: true
+});
+
+sr.reveal('.team-member', {
+	viewFactor: 0.3,
+	reset: true
+}, 500);
+
+sr.reveal('.hora',{
+	viewFactor: 0.5,
+	reset: true
+}, 100);
+
+sr.reveal('.event',{
+	viewFactor: 0.5,
+	reset: true
+}, 100);
+
+sr.reveal('.title', {
+	duration: 500,
+	viewFactor: 0.3,
+	delay: 2500, 
+	reset: true
+});
+
+sr.reveal('.gallery-img', {
+	viewFactor: 0.3,
+	reset: true
+}, 100);

@@ -1,6 +1,12 @@
 <section id="contact">
 	<div class="container">
 		<div class="row hide-on-small-only">
+			<div class="col lg6 m6 left-align">
+				<div class="text-contact">
+					<h1 class="um">Alguma dúvida?</h1>
+					<p class="dois">Entre em contato conosco!</p>
+				</div>
+			</div>
 			<div class="col lg6 m6"> <!-- debora esteve aqui -->
 				<form id="form-contact" class="margem col lg12 m12 s12" action="send_email.php" name="form_contato" method="post">
 					<div class="row">
@@ -27,12 +33,6 @@
 					</div>
 					<input type="submit" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
 				</form>
-			</div>
-			<div class="col lg6 m6 right-align">
-				<div class="text-contact">
-					<h1 class="um">Alguma dúvida?</h1>
-					<p class="dois">Entre em contato conosco!</p>
-				</div>
 			</div>
 		</div>
 

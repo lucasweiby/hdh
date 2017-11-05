@@ -1,7 +1,13 @@
 <section id="box-countdown">
 	<div class="container">
+		<div class="row title hide-on-small-only">
+			<h4>Estamos na contagem regressiva para a nossa <strong class="destaque">2ª EDIÇÃO</strong></h4>
+		</div>
+		<div class="row title hide-on-med-and-up">
+			<h4>Estamos na contagem regressiva para a nossa <br><strong class="destaque">2ª EDIÇÃO</strong></h4>
+		</div>
 		<div class="row">
-			<div class="col lg6 m6 s12">
+			<div class="col xl12 l12 m12 s12">
 				<table class="countdownContainer">
 					<tr class="info">
 						<td class="title-cont" id="days">120</td>
@@ -16,10 +22,7 @@
 						<td class="legend-cont">Segundos</td>
 					</tr>
 				</table>
-			</div>
-			<div class="hide-on-small-only col lg6 m6 s12">
-				<img class="logo" src="img/hdh-logo.png">		
-			</div>					
+			</div>				
 		</div>
 	</div>			
 </section>
