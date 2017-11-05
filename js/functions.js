@@ -175,7 +175,13 @@ sr.reveal('.event',{
 sr.reveal('.title', {
 	duration: 500,
 	viewFactor: 0.3,
-	delay: 2500, 
+	delay: 2100, 
+	reset: true
+});
+
+sr.reveal('.title-cont', {
+	duration: 500,
+	viewFactor: 0.3,
 	reset: true
 });
 

@@ -63,12 +63,12 @@
   .box-sobre .align-bottom {
     align-self: flex-end; }
 
-#box-countdown .title {
+#box-countdown .title-cont {
   text-align: center;
   color: #6699ff;
   font-family: "Bubbler One", sans-serif;
   margin: 50px 0 -20px; }
-  #box-countdown .title .destaque {
+  #box-countdown .title-cont .destaque {
     color: #F71290;
     font-weight: bolder; }
 #box-countdown .logo {
