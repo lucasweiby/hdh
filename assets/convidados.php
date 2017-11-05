@@ -3,7 +3,7 @@
 		<h2 class="workshops">WORKSHOPS</h2>
 		<div class="line"></div>
 		<div class="row">
-			<div class="box col xl3 l3 m3 s12">
+			<div class="box col xl3 l3 m6 s12">
 				<div class="team-member hvr-grow" >
 					<div class="image">
 						<img src="img/workshops/aryadine.jpg" class="team-pic circle responsive-img">
@@ -16,7 +16,7 @@
 				</div>
 				<!-- /.team-member -->
 			</div>
-			<div class="box col xl3 l3 m3 s12">
+			<div class="box col xl3 l3 m6 s12">
 				<div class="team-member" hvr-grow >
 					<div class="image">
 						<img src="img/workshops/norbit.jpg" class="team-pic circle responsive-img">
@@ -29,7 +29,7 @@
 				</div>
 				<!-- /.team-member -->
 			</div>
-			<div class="box col xl3 l3 m3 s12">
+			<div class="box col xl3 l3 m6 s12">
 				<div class="team-member hvr-grow" >
 					<div class="image">
 						<img src="img/workshops/lou.jpg" class="team-pic circle responsive-img">
@@ -42,7 +42,7 @@
 				</div>
 				<!-- /.team-member -->
 			</div>
-			<div class="box col xl3 l3 m3 s12">
+			<div class="box col xl3 l3 m6 s12">
 				<div class="team-member hvr-grow" >
 					<div class="image">
 						<img src="img/workshops/rafa.jpg" class="team-pic circle responsive-img">

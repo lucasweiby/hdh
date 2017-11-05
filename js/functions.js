@@ -189,3 +189,14 @@ sr.reveal('.gallery-img', {
 	viewFactor: 0.3,
 	reset: true
 }, 100);
+
+sr.reveal('.map-title', {
+	viewFactor: 0.3,
+	reset: true
+});
+
+sr.reveal('.end', {
+	viewFactor: 0.3,
+	delay: 500,
+	reset: true
+});

@@ -2,7 +2,7 @@
 @import url("../fonts/Open-Sans/stylesheet.css");
 .brand-logo img {
   padding: 0 20%; }
-  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
     .brand-logo img {
       margin: -45%; } }
   @media only screen and (max-width: 600px) {
@@ -78,7 +78,7 @@
   max-width: 300px;
   height: auto;
   margin: 20%; }
-  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
     #box-countdown .logo {
       max-width: 200px;
       height: auto; } }
@@ -93,13 +93,13 @@
   margin: 50px 10px;
   font-family: "Bubbler One", sans-serif;
   font-weight: bold; }
-  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
     #box-countdown .countdownContainer {
       margin: 50px 20px; } }
   #box-countdown .countdownContainer td {
     padding: 0 30px;
     text-align: center; }
-    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
       #box-countdown .countdownContainer td {
         padding: 0 10px; } }
     @media only screen and (max-width: 600px) {
@@ -110,7 +110,7 @@
     font-weight: bold; }
   #box-countdown .countdownContainer .title-cont {
     color: #F71290; }
-    @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
       #box-countdown .countdownContainer .title-cont {
         font-size: 30px; } }
     @media only screen and (max-width: 600px) {
@@ -144,6 +144,12 @@
     margin-top: 20px;
     padding: 0 1px;
     width: 100%; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .convidados .box {
+        padding: 1px; } }
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+      .convidados .box {
+        padding: 50px; } }
     @media only screen and (max-width: 600px) {
       .convidados .box {
         padding: 0 2px; } }
@@ -280,7 +286,7 @@
     #contact .text-contact h1 {
       color: #F71290;
       font-weight: bold; }
-      @media only screen and (min-width: 600px) and (max-width: 1200px) {
+      @media only screen and (min-width: 600px) and (max-width: 992px) {
         #contact .text-contact h1 {
           font-size: 40px; } }
       @media only screen and (max-width: 600px) {
@@ -291,7 +297,7 @@
       margin-top: -10px;
       color: #6699ff;
       font-weight: bold; }
-      @media only screen and (min-width: 600px) and (max-width: 1200px) {
+      @media only screen and (min-width: 600px) and (max-width: 992px) {
         #contact .text-contact p {
           font-size: 20px; } }
       @media only screen and (max-width: 600px) {
@@ -322,7 +328,7 @@
       .scrollToTop i {
         font-size: 20px;
         margin-top: -10px; } }
-  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
     .scrollToTop {
       width: 30px;
       height: 30px;
@@ -441,5 +447,28 @@ footer {
     background-color: #F71290; }
     .about-box a :hover {
       background-color: #F71290; }
+
+.map {
+  width: 100%;
+  height: auto; }
+  .map h3 {
+    font-family: "Bubbler One", sans-serif;
+    color: #F71290;
+    text-align: center;
+    font-weight: bold; }
+    @media only screen and (max-width: 600px) {
+      .map h3 {
+        font-size: 25px; } }
+  .map .end {
+    font-family: "Open Sans", sans-serif;
+    color: #6699ff;
+    text-align: center;
+    font-weight: tiny; }
+    @media only screen and (max-width: 600px) {
+      .map .end {
+        font-size: 15px; } }
+  .map #map {
+    width: 100%;
+    height: 400px; }
 
 /*# sourceMappingURL=style.css.map */
