@@ -48,6 +48,9 @@ $(document).ready(function(){
 		return false;
 	});
 
+    $('.materialboxed').materialbox();
+        
+
 });
 
 window.sr = ScrollReveal();

@@ -1,13 +1,33 @@
 <title>Hana, dul... HALLYU!</title>
-<link rel="shortcut icon" href="../img/hdh-logo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/hdh-logo.ico" type="image/x-icon">
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-<link rel="stylesheet" type="text/css" href="../bower_components/hover/css/hover-min.css">
-<link rel="stylesheet" type="text/css" href="../css/animate.css">
+<link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" type="text/css" href="bower_components/hover/css/hover-min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+
+<!--ICONS-->
+<link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+<link rel="manifest" href="img/ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
 
 <!--Let browser know website is optimized for mobile-->
