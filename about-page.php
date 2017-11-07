@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<?php include 'head.php' ?>
+	<?php include 'assets/head.php' ?>
 </head>
 
 <body class="about-body">
@@ -13,7 +13,7 @@
 
 		<div class="container">
 			<div class="row">
-				<img class="img-about" src="../img/hdh-logo.png">
+				<img class="img-about" src="img/hdh-logo.png">
 				<p class="text-about">O Hana Dul Hallyu é o evento que trás a cultura coreana em forma de entretenimento para todos, com o nome que anuncia a contagem regressiva para a chegada da “onda K-pop”.</p>
 
 				<p class="text-about">Nossa Missão é reconhecer e exaltar o trabalho dos admiradores desta cultura, seja através das artes ou do empreendedorismo.</p>
@@ -71,19 +71,19 @@
 			</div>
 		</div> -->
 
-		<?php include 'gallery.php' ?>
+		<?php include 'assets/gallery.php' ?>
 
-		<a class="back btn-floating btn-large waves-effect waves-light tooltipped hide-on-small-only" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
-		<a class="back btn-floating btn-small waves-effect waves-light tooltipped hide-on-med-and-up center-align" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="../index.php"><i class="hvr-grow material-icons">home</i></a>
+		<a class="back btn-floating btn-large waves-effect waves-light tooltipped hide-on-small-only" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="index.php"><i class="hvr-grow material-icons">home</i></a>
+		<a class="back btn-floating btn-small waves-effect waves-light tooltipped hide-on-med-and-up center-align" data-position="bottom" data-delay="50" data-tooltip="Voltar" href="index.php"><i class="hvr-grow material-icons">home</i></a>
 	</div>
 
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 	<!-- FUNCTIONS -->
-	<script type="text/javascript" src="../js/functions.js"></script>
-	<script type="text/javascript" src="../js/function_countdown.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/function_countdown.js"></script>
 </body>
 </html>
