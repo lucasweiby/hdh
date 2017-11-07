@@ -1,20 +1,52 @@
-.picture {
-	margin: 50px 50px;
-	.team-pic {
-		display: block;
-		margin: 0 auto;
-		padding: 0 200px;
-	}
-}
-
-.line {
-	border-bottom: 2px solid $default-pink;
-	max-width: 600px;
-	margin: 0 auto;
+.workshops {
+	background-color: $default-blue;
 	padding: 20px 0;
 }
 
-.desc {
-	text-align: justify;
-	font-family: $text-font;
+.ary {
+	background-color: #fff;
+	padding: 30px;
+	@include tablet {
+		padding: 5px;
+	}
+	@include mobile {
+		padding: 5px;
+	}
+	.picture {
+		margin: 50px;
+		@include tablet {
+			margin: 5px;
+		}
+		@include mobile {
+			margin: 5px;
+		}
+		.team-pic {
+			display: block;
+			margin: 0 auto;
+			padding: 0 200px;
+		}
+	}
+
+	.line {
+		border-bottom: 2px solid $default-pink;
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 20px 0;
+		@include tablet {
+			padding: 10px 0;
+			max-width: 200px;
+		}
+		@include mobile {
+			padding: 10px 0;
+			max-width: 200px;
+		}
+	}
+
+	.desc {
+		text-align: justify;
+		font-family: $text-font;
+		@include mobile {
+			padding: 1px 20px;
+		}
+	}
 }
