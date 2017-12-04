@@ -1,4 +1,4 @@
-<section id="box-countdown">
+<section id="box-countdown" class="hide">
 	<div class="container">
 		<div class="row title-cont hide-on-small-only">
 			<h4>Estamos na contagem regressiva para a nossa <strong class="destaque">2ª EDIÇÃO</strong></h4>
