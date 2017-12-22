@@ -49,21 +49,26 @@
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/gdragon.jpg"> <!-- random image -->
+        <img src="img/2ed/1.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="img/cl.jpg"> <!-- random image -->
+        <img src="img/2ed/2.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="img/bts.jpg"> <!-- random image -->
+        <img src="img/2ed/3.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="img/kard.jpg"> <!-- random image -->
+        <img src="img/2ed/4.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="img/2ed/6.jpg"> <!-- random image -->
       </li>
     </ul>
   </div>
 
   <?php include 'assets/countdown.php' ?>
+
+  <!-- <?php include 'assets/gallery-section.php' ?> -->
 
   <?php include 'assets/convidados.php' ?>
 

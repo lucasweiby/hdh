@@ -1,0 +1,10 @@
+.gallery-sec {
+	background-image: url('../img/about.png');
+	.carousel {
+		display: block;
+		margin: 0 auto;
+		img {
+			width: 150%;
+		}
+	}
+}

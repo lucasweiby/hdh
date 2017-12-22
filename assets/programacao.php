@@ -1,4 +1,4 @@
-<section id="programacao" class="programacao">
+<section id="programacao" class="programacao hide">
 	<div class="container">
 		<h2 class="prog">PROGRAMAÇÃO</h2>
 		<div class="line"></div>

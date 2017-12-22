@@ -1,7 +1,8 @@
 <section id="box-countdown">
 	<div class="container">
 		<div class="row title-cont hide-on-small-only">
-			<h4>Estamos rumo a <strong class="destaque">3ª EDIÇÃO</strong></h4>
+			<h4 id="count">Estamos rumo a <strong class="destaque">3ª EDIÇÃO</strong></h4>
+			<label for="count" style="font-weight: bold;">10/03/2018</label>
 		</div>
 		<div class="row title-cont hide-on-med-and-up">
 			<h4>Estamos rumo a <br><strong class="destaque">3ª EDIÇÃO</strong></h4>

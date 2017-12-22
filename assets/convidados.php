@@ -1,4 +1,4 @@
-<section id="convidados" class="convidados">
+<section id="convidados" class="convidados hide">
 	<div class="container">
 		<h2 class="workshops">WORKSHOPS</h2>
 		<div class="line"></div>

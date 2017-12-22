@@ -1,7 +1,7 @@
 <section id="map-sec" class="map">
 	<div class="row">
 		<div class="col xl12 l12 m12 s12">
-			<h3 class="map-title">Onde acontecerá o Hana, Dul... Hallyu?</h3>
+			<h3 class="map-title">E onde será a 3ª edição do Hana, Dul... Hallyu?</h3>
 			<p class="end"><i class="material-icons">location_on</i>Theatro José de Alencar - R. Liberato Barroso, 525 - Centro, Fortaleza - CE, 60030-160</p>
 		</div>
 	</div>

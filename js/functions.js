@@ -35,21 +35,27 @@ $(document).ready(function(){
     } // End if
 });
     $(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	
+    	if ($(this).scrollTop() > 100) {
+    		$('.scrollToTop').fadeIn();
+    	} else {
+    		$('.scrollToTop').fadeOut();
+    	}
+    });
+
 	//Click event to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
 
-    $('.materialboxed').materialbox();
-        
+	$('.materialboxed').materialbox();
+
+	$(document).ready(function(){
+		$('.carousel').carousel({
+			indicators: true
+		}, 'next');
+	});
+
 
 });
 
