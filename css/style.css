@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One");
 @import url("../fonts/Open-Sans/stylesheet.css");
+body {
+  overflow-x: hidden; }
+
 .brand-logo img {
   padding: 0 20%; }
   @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -25,11 +28,16 @@
   color: #6699ff; }
 
 .box-sobre {
+  margin-top: -1%;
   text-align: center;
   width: 100%;
   height: 400px;
-  background: url("../img/about.png");
+  background: url("../img/2ed/4.jpeg");
   background-size: cover;
+  background-color: #6699ff;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center; }

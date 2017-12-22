@@ -1,10 +1,10 @@
-<section id="box-countdown" class="hide">
+<section id="box-countdown">
 	<div class="container">
 		<div class="row title-cont hide-on-small-only">
-			<h4>Estamos na contagem regressiva para a nossa <strong class="destaque">2ª EDIÇÃO</strong></h4>
+			<h4>Estamos rumo a <strong class="destaque">3ª EDIÇÃO</strong></h4>
 		</div>
 		<div class="row title-cont hide-on-med-and-up">
-			<h4>Estamos na contagem regressiva para a nossa <br><strong class="destaque">2ª EDIÇÃO</strong></h4>
+			<h4>Estamos rumo a <br><strong class="destaque">3ª EDIÇÃO</strong></h4>
 		</div>
 		<div class="row">
 			<div class="col xl12 l12 m12 s12">
