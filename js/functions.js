@@ -11,6 +11,7 @@ $(document).ready(function(){
 		delay: 50
 	});
 
+    $('select').material_select();
 
     // Smooth Scroll
     $("a").on('click', function(event) {
