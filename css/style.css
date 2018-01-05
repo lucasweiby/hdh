@@ -532,4 +532,12 @@ footer {
     .gallery-sec .carousel img {
       width: 150%; }
 
+.insc .integrantes {
+  color: #6699ff;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+#contact form .btn .file {
+  width: 20%; }
+
 /*# sourceMappingURL=style.css.map */
