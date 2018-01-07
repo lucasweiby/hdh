@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <?php include 'assets/head.php' ?>
 <body>
@@ -18,11 +17,11 @@
 						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc.php" name="form_contato" method="post">
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
-									<input id="last_name" name="last_name" type="text" class="validate" required="required">
-									<label for="last_name">Nome do grupo ou participante</label>
+									<input id="name" name="name" type="text" class="validate" required="required">
+									<label for="name">Nome do grupo ou participante</label>
 								</div>
 								<div class="input-field col lg6 m6 s6">
-									<select required="required">
+									<select name="categoria" id="categoria" required="required">
 										<option value="" disabled selected>Escolha uma categoria</option>
 										<option value="1">Pocket dance</option>
 										<option value="2">Dance cover</option>
@@ -55,7 +54,7 @@
 									<div class="file-field input-field">
 										<div class="btn file">
 											<span><i class="material-icons">group</i></span>
-											<input type="file">
+											<input type="file" name="logo" id="logo">
 										</div>
 										<div class="file-path-wrapper">
 											<input class="file-path validate" type="text" placeholder="Logo do grupo (FUNDO TRANSPARENTE)">
