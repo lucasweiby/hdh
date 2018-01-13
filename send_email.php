@@ -60,11 +60,12 @@ $hora_envio = date('H:i:s');
   //$headers .= "Bcc: $EmailPadrao\r\n";
   
   $enviaremail = mail($destino, $assunto, $arquivo, $headers);
+
   if($enviaremail){
-  $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
+    $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
+    echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
   } else {
-  $mgm = "ERRO AO ENVIAR E-MAIL!";
-  echo "";
+    $mgm = "ERRO AO ENVIAR E-MAIL!";
+    echo "";
   }
 ?>
