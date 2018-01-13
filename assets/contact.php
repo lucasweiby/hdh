@@ -31,6 +31,15 @@
 							<label for="textarea1">Mensagem</label>
 						</div>
 					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="textarea2" name="message" class="materialize-textarea"></textarea>
+							<label for="textarea1">OUTRA MENSAGEM</label>
+						</div>
+					</div>
+
+
 					<input type="submit" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
 				</form>
 			</div>
