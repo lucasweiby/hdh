@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<div class="col lg12 m12">
-						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc.php" name="form_contato" method="post">
+						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc2.php" name="form_contato" method="post">
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
 									<input id="name" name="name" type="text" class="validate" required="required">
@@ -54,7 +54,7 @@
 									<div class="file-field input-field">
 										<div class="btn file">
 											<span><i class="material-icons">group</i></span>
-											<input type="file" name="logo" id="logo">
+											<input type="file" name="anexo" id="logo">
 										</div>
 										<div class="file-path-wrapper">
 											<input class="file-path validate" type="text" placeholder="Logo do grupo (FUNDO TRANSPARENTE)">
