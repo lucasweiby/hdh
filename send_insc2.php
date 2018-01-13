@@ -91,7 +91,7 @@ $hora_envio = date('H:i:s');
 
   $mensagem  = "--$boundary" . PHP_EOL;
   $mensagem .= "Content-Type: text/html; charset='utf-8'" . PHP_EOL;
-  $mensagem .= "$arquivo"; // Adicione aqui sua mensagem
+  $mensagem .= "UM TEXTO ALEATORIO QUALQUER"; // Adicione aqui sua mensagem
   $mensagem .= "--$boundary" . PHP_EOL;
 
   $mensagem .= "Content-Type: ". $fileType ."; name=\"". $fileName . "\"" . PHP_EOL;
@@ -102,12 +102,14 @@ $hora_envio = date('H:i:s');
 
   //ARQUIVO FIM-------------------------------------------
   
-  $enviaremail = mail($destino, $assunto, $mensagem, $headers);
+  $enviaremail = mail($destino, $assunto, $arquivo, $headers);
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
+  echo "$msg";
+  //echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
-  echo "";
+  echo "$msg";
+  //echo "";
   }
 ?>
