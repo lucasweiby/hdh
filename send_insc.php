@@ -1,9 +1,9 @@
 <?php
 
 //Variáveis
-$name = $_POST['name'];
+$nome = $_POST['nome'];
 $categoria = $_POST['categoria'];
-$email = $_POST['email'];
+$email_rep = $_POST['email_rep'];
 $integ = $_POST['integ'];
 $link = $_POST['link'];
 $coreografo = $_POST['coreografo'];
@@ -31,10 +31,10 @@ $hora_envio = date('H:i:s');
     <html>
         <table width='510' cellpadding='1' cellspacing='1'>
 		      <tr>
-           <td width='500'>Nome: $name</td>
+           <td width='500'>Nome: $nome</td>
           </tr>
           <tr>
-            <td width='320'>E-mail: <b>$email</b></td>
+            <td width='320'>E-mail: <b>$email_rep</b></td>
 			      </tr>
           <tr>
             <td width='320'>Categoria: $categoria</td>
@@ -63,12 +63,12 @@ $hora_envio = date('H:i:s');
   // emails para quem será enviado o formulário
   $emailenviar = "deboramoura@alu.ufc.br";
   $destino = $emailenviar;
-  $assunto = "Contato - Hana dul Hallyu";
+  $assunto = "Inscrição - Hana dul Hallyu";
 
   // É necessário indicar que o formato do e-mail é html
   $headers  = 'MIME-Version: 1.0' . "\r\n";
       $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= 'From:'. $first_name . '<'.$email.'>';
+      $headers .= 'From:'. . '<'.$email_rep.'>';
   
   //$headers .= "Bcc: $EmailPadrao\r\n";
   
@@ -78,6 +78,6 @@ $hora_envio = date('H:i:s');
   echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
-  echo "";
+  echo "ERRO";
   }
 ?>

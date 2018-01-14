@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$('.button-collapse').sideNav();
 
+	$('.modal').modal();
+
 	$('.slider').slider({
 		indicators: false,
 		interval: 2000,
@@ -55,6 +57,35 @@ $(document).ready(function(){
 		$('.carousel').carousel({
 			indicators: true
 		}, 'next');
+	});
+
+
+	//Botao mais
+	var integrante_n = 2;
+
+	$('#botao-mais').click(function() {
+		var integrante_anterior = integrante_n-1;
+		if ($('#nome_integ'+integrante_anterior).val() == "" || $('#n_integ'+integrante_anterior).val() == "") { //ver se ja preencheu
+			$('#modal1').modal('open');
+		} else {
+		var $integrante_mais = "<div class=\"row\">"+
+									"<div class=\"input-field col s1\">"+
+										"<label>"+integrante_n+"</label>"+
+									"</div>"+
+									"<div class=\"input-field col s7\">"+
+										"<input id=\"nome_integ"+integrante_n+"\" name=\"nome_integ"+integrante_n+"\" type=\"text\" class=\"validate\" required=\"required\">"+
+										"<label for=\"nome_integ"+integrante_n+"\">Nome do integrante</label>"+
+									"</div>"+
+									"<div class=\"input-field col s3\">"+
+										"<input id=\"n_integ"+integrante_n+"\" name=\"n_integ"+integrante_n+"\" type=\"number\" class=\"validate\" required=\"required\">"+
+										"<label for=\"n_integ"+integrante_n+"\" data-error=\"Digite apenas números\">Nº documento oficial com foto</label>"+
+									"</div>"+
+									"<div class=\"input-field col s1\">"+
+									"</div>"+
+								"</div>";
+		$('.integrantes_cadastro').append($integrante_mais);
+		integrante_n++;
+		}
 	});
 
 
