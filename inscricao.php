@@ -14,7 +14,7 @@
 						</div>
 					</div>
 					<div class="col lg12 m12">
-						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc2.php" name="form_contato" method="post">
+						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc2.php" name="form_contato" method="get">
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
 									<input id="name" name="name" type="text" class="validate" required="required">

@@ -87,7 +87,7 @@ header('Location: orcamento_enviado.php');
 //se nao tiver anexo 
 else{ 
  
-header('Location: sem_anexo.php');
+//header('Location: sem_anexo.php');
 } 
  
 ?>
