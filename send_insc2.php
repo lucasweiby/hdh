@@ -61,8 +61,8 @@ $mens .= "<br>Nº de integrantes: $integ" . $quebra_linha . "";
 $mens .= "<br>Link da Coreografia: $link" . $quebra_linha . ""; 
 $mens .= "<br>Nome do Coreografo: $coreografo" . $quebra_linha . ""; 
 $mens .= "<br>Enviado em: $data_envio às $hora_envio" . $quebra_linha . ""; 
-/*$mens .= "--$boundary" . $quebra_linha . ""; 
-$mens .= "Content-Type: ".$arquivo["type"]."" . $quebra_linha . ""; 
+$mens .= "--$boundary" . $quebra_linha . ""; 
+/*$mens .= "Content-Type: ".$arquivo["type"]."" . $quebra_linha . ""; 
 $mens .= "Content-Disposition: attachment; filename=\"".$arquivo["name"]."\"" . $quebra_linha . ""; 
 $mens .= "Content-Transfer-Encoding: base64" . $quebra_linha . "" . $quebra_linha . ""; 
 $mens .= "$anexo" . $quebra_linha . ""; 
@@ -75,14 +75,14 @@ $headers .= "Content-type: multipart/mixed; boundary=\"$boundary\"" . $quebra_li
 $headers .= "$boundary" . $quebra_linha . ""; 
  
 
-$enviaremail = mail($email,$assunto,$mens,$headers, "-r".$email_rep);
+$enviaremail = mail($email,$assunto,$mens,$headers);
 
   if($enviaremail){
     $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
     echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
   } else {
     $mgm = "ERRO AO ENVIAR E-MAIL!";
-    echo "";
+    echo "ERRO";
   } 
  
 //echo"Email enviado com Sucesso!"; 
