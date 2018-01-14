@@ -74,11 +74,19 @@ $headers .= "Return-Path: $email_from " . $quebra_linha . "";
 $headers .= "Content-type: multipart/mixed; boundary=\"$boundary\"" . $quebra_linha . ""; 
 $headers .= "$boundary" . $quebra_linha . ""; 
  
-//envio o email com o anexo 
-mail($email,$assunto,$mens,$headers, "-r".$email_rep); 
+
+$enviaremail = mail($email,$assunto,$mens,$headers, "-r".$email_rep);
+
+  if($enviaremail){
+    $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
+    echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
+  } else {
+    $mgm = "ERRO AO ENVIAR E-MAIL!";
+    echo "";
+  } 
  
 //echo"Email enviado com Sucesso!"; 
-header('Location: orcamento_enviado.php');
+//header('Location: orcamento_enviado.php');
  
 //} 
  
