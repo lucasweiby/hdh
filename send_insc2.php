@@ -37,7 +37,7 @@ if( PATH_SEPARATOR ==';'){ $quebra_linha="\r\n";
   $assunto = 'Inscrição - Hana dul Hallyu';
  
 $arquivo = isset($_FILES["anexo"]) ? $_FILES["anexo"] : FALSE; 
- 
+ /*
 if(file_exists($arquivo["tmp_name"]) and !empty($arquivo)){ 
 
 $fp = fopen($_FILES["anexo"]["tmp_name"],"rb"); 
@@ -48,7 +48,7 @@ fclose($fp);
  
 $anexo = chunk_split($anexo); 
  
- 
+ */
 $boundary = "XYZ-" . date("dmYis") . "-ZYX"; 
  
 $mens = "--$boundary" . $quebra_linha . ""; 
@@ -61,13 +61,13 @@ $mens .= "<br>Nº de integrantes: $integ" . $quebra_linha . "";
 $mens .= "<br>Link da Coreografia: $link" . $quebra_linha . ""; 
 $mens .= "<br>Nome do Coreografo: $coreografo" . $quebra_linha . ""; 
 $mens .= "<br>Enviado em: $data_envio às $hora_envio" . $quebra_linha . ""; 
-$mens .= "--$boundary" . $quebra_linha . ""; 
+/*$mens .= "--$boundary" . $quebra_linha . ""; 
 $mens .= "Content-Type: ".$arquivo["type"]."" . $quebra_linha . ""; 
 $mens .= "Content-Disposition: attachment; filename=\"".$arquivo["name"]."\"" . $quebra_linha . ""; 
 $mens .= "Content-Transfer-Encoding: base64" . $quebra_linha . "" . $quebra_linha . ""; 
 $mens .= "$anexo" . $quebra_linha . ""; 
 $mens .= "--$boundary--" . $quebra_linha . ""; 
- 
+*/ 
 $headers = "MIME-Version: 1.0" . $quebra_linha . ""; 
 $headers .= "From: $email_from " . $quebra_linha . ""; 
 $headers .= "Return-Path: $email_from " . $quebra_linha . ""; 
