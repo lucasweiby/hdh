@@ -80,14 +80,14 @@ mail($email,$assunto,$mens,$headers, "-r".$email_rep);
 //echo"Email enviado com Sucesso!"; 
 header('Location: orcamento_enviado.php');
  
-} 
+//} 
  
 
 
 //se nao tiver anexo 
-else{ 
+//else{ 
  
 //header('Location: sem_anexo.php');
-} 
+//} 
  
 ?>
