@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="col lg12 m12">
-						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc.php" name="form_contato" method="post">
+						<form id="form-contact" class="margem col lg12 m12 s12 insc" name="form_contato" method="post">
 							<h3 class="integrantes">Dados do grupo</h3>
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
@@ -112,7 +112,10 @@
 									<label for="coreografo">Nome do coreógrafo (APENAS A CATEGORIA DE ESTILO LIVRE)</label>
 								</div>
 							</div>
-							<input type="submit" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
+							<div class="progress">
+						      <div class="indeterminate"></div>
+						  </div>
+							<input type="button" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
 						</form>
 					</div>
 				</div>
@@ -130,9 +133,21 @@
 		    </div>
 		  </div>
 
+	  	<!-- Modal Structure -->
+	  <div id="modal2" class="modal">
+	    <div class="modal-content">
+	      <h4>Inscrição enviada!</h4>
+	      <p>Sua inscrição foi recebida com sucesso, a lista com os grupos aprovados será postada na nossa <a target="_blank" href="https://www.facebook.com/hanadulevent/https://www.facebook.com/hanadulevent/"> fanpage do Facebook. </a></p>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="index.php" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+	    </div>
+	  </div>
+
 		<?php include 'assets/footer.php' ?>
 	</main>
 	<?php include 'assets/scripts.php' ?>
+	<script type="text/javascript" src="js/inscricao.js"></script>
 
 	<style type="text/css">
 		input[type=number]::-webkit-inner-spin-button { 

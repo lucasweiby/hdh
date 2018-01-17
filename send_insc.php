@@ -7,7 +7,7 @@ $email_rep = $_POST['email_rep'];
 $n_integ = $_POST['n_integ'];
 
 for ($i = 1; $i <= $n_integ; $i++) { 
-  $integrantes[$_POST['nome_integ'.$i]] = $_POST['n_integ'.$i];
+  $integrantes[$_POST['nome_integ'. $i]] = $_POST['n_integ'. $i];
 
 }
 $link = $_POST['link'];
