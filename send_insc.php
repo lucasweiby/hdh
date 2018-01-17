@@ -46,10 +46,14 @@ $hora_envio = date('H:i:s');
           </tr>
           <tr>
             <td width='320'>Dados dos integrantes:
-              <ol>".
+              <ol>";
+
+
             foreach ($integrantes as $nome => $numero) {
-              ."<li>Nome: $nome | Nº documento: $numero </li>".
-            } . "</ol>
+              $arquivo .= "<li>Nome: $nome | Nº documento: $numero </li>";
+            }
+
+ $arquivo .= "</ol>
             </td>
           </tr>
           <tr>
