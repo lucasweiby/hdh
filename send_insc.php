@@ -75,8 +75,7 @@ $hora_envio = date('H:i:s');
   //enviar
   
   // emails para quem será enviado o formulário
-  //$emailenviar = "hanadulhallyu@gmail.com";
-  $emailenviar = "deboramoura@alu.ufc.br";
+  $emailenviar = "hanadulhallyu@gmail.com";
   $destino = $emailenviar;
   $assunto = "Inscrição - Hana dul Hallyu";
 
