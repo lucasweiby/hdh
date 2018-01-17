@@ -6,7 +6,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
         var email_rep = $('#email_rep').val();
         var n_integ   = $('#n_integ').val();
 
-        var integrantes;
+        var integrantes = "";
         for (var i = 1; i <= n_integ; i++) {
             var nome = $('#nome_integ'+i).val();
             var numero = $('#n_integ'+i).val();

@@ -39,6 +39,9 @@ $hora_envio = date('H:i:s');
            <td width='500'>Nome do grupo: $nome</td>
           </tr>
           <tr>
+           <td width='500'>Categoria: $categoria</td>
+          </tr>
+          <tr>
             <td width='320'>E-mail do representante: <b>$email_rep</b></td>
           </tr>
           <tr>
