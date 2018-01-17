@@ -8,7 +8,7 @@
 				</div>
 			</div>
 			<div class="col lg6 m6"> <!-- debora esteve aqui -->
-				<form id="form-contact" class="margem col lg12 m12 s12" name="form_contato" method="post">
+				<form id="form-contact" class="form-contact margem col lg12 m12 s12" name="form_contato" method="post">
 					<div class="row">
 						<div class="input-field col lg6 m6 s6">
 							<input id="first_name" name="first_name" type="text" class="validate">
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 			<div class="col s12"> <!-- debora esteve aqui -->
-				<form id="form-contact" class="margem col lg12 m12 s12" name="form_contato" method="post">
+				<form id="form-contact" class="form-contact margem col lg12 m12 s12" name="form_contato" method="post">
 					<div class="row">
 						<div class="input-field col lg6 m6 s6">
 							<input id="first_name" name="first_name" type="text" class="validate">

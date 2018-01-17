@@ -20,12 +20,17 @@ $(document).ready( function(){ //Quando documento estiver pronto
              data: urlData, /* informa Url */
              success: function(data) { /* sucesso */
                 alert(data)
+                alert("oie")
              },
              beforeSend: function() { /* antes de enviar */
+                 $('.form-contact').fadeOut('fast'); 
                  $('.progress').fadeIn('fast'); 
              },
              complete: function(){ /* completo */
                  $('.progress').fadeOut('fast'); //wow!
+                 $("input").val("")
+                 $('.form-contact').fadeIn('fast');
+
              }
          });
     });
