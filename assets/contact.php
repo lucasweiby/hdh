@@ -67,7 +67,7 @@
 							<label for="message">Mensagem</label>
 						</div>
 					</div>
-					<input type="submit" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
+					<button id="enviar" class="hvr-grow waves-effect waves-light btn"/>Enviar</button>    
 				</form>
 			</div>
 		</div>

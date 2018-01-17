@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$(".progress").hide()
+	
 	$('.button-collapse').sideNav();
 
 	$('.modal').modal();
@@ -36,8 +38,6 @@ $(document).ready(function(){
         window.location.hash = hash;
     });
     } // End if
-
-    $(".progress").hide()
 });
     $(window).scroll(function(){
     	if ($(this).scrollTop() > 100) {
