@@ -94,5 +94,6 @@
   <!-- FUNCTIONS -->
   <script type="text/javascript" src="js/functions.js"></script>
   <script type="text/javascript" src="js/function_countdown.js"></script>
+  <script type="text/javascript" src="js/ajax.js"></script>
 </body>
 </html>

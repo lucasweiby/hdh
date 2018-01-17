@@ -93,5 +93,3 @@
 
 </section>
 
-<script type="text/javascript" src="js/ajax.js"></script>
-
