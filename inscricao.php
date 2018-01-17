@@ -120,7 +120,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		
 
 		  <!-- Modal Structure -->
 		  <div id="modal1" class="modal">
@@ -137,12 +137,15 @@
 	  <div id="modal2" class="modal">
 	    <div class="modal-content">
 	      <h4>Inscrição enviada!</h4>
-	      <p>Sua inscrição foi recebida com sucesso, a lista com os grupos aprovados será postada na nossa <a target="_blank" href="https://www.facebook.com/hanadulevent/https://www.facebook.com/hanadulevent/"> fanpage do Facebook. </a></p>
+	      <p>Sua inscrição foi recebida com sucesso, a lista com os grupos aprovados será postada na nossa <a target="_blank" href="https://www.facebook.com/hanadulevent/"> fanpage do Facebook. </a></p>
 	    </div>
 	    <div class="modal-footer">
 	      <a href="index.php" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
 	    </div>
 	  </div>
+
+	</section>
+	
 
 		<?php include 'assets/footer.php' ?>
 	</main>
