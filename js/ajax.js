@@ -19,10 +19,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
              async: true,
              data: urlData, /* informa Url */
              success: function(data) { /* sucesso */
-                if (data == 'sent')
-                    $('#modal-contato').fadeIn();
-                if (data == 'error')
-                    alert('erro')
+                alert(data)
              },
              beforeSend: function() { /* antes de enviar */
                  $('.progress').fadeIn('fast'); 
