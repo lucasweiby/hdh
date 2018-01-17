@@ -19,16 +19,13 @@ $(document).ready( function(){ //Quando documento estiver pronto
              async: true,
              data: urlData, /* informa Url */
              success: function(data) { /* sucesso */
-                alert(data)
-                alert("oie")
+                $('#modal-contato').modal('open');
              },
              beforeSend: function() { /* antes de enviar */
                  $('.progress').fadeIn('fast'); 
              },
              complete: function(){ /* completo */
                  $('.progress').fadeOut('fast'); //wow!
-                 $('#modal-contato').modal('open');
-
              }
          });
     });

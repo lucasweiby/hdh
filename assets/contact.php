@@ -31,6 +31,9 @@
 							<label for="message">Mensagem</label>
 						</div>
 					</div>
+					<div class="progress">
+				      <div class="indeterminate"></div>
+				  </div>
 					<input type="button" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
 				</form>
 			</div>
@@ -71,10 +74,7 @@
 				</form>
 			</div>
 		</div>
-		
-		<div class="progress">
-	      <div class="indeterminate"></div>
-	  </div>
+	
 
 	</div>
 
