@@ -15,7 +15,7 @@
 					</div>
 
 					<div class="col lg12 m12">
-						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc.php" name="form_contato" method="get">
+						<form id="form-contact" class="margem col lg12 m12 s12 insc" action="send_insc.php" name="form_contato" method="post">
 							<h3 class="integrantes">Dados do grupo</h3>
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
@@ -39,7 +39,7 @@
 									<label for="email" data-error="E-mail inválido" data-success="Este e-mail é válido">E-mail do representante</label>
 								</div>
 								<div class="input-field col lg2 m2 s2">
-									<input id="integ" name="integ" type="number" class="validate" required="required">
+									<input id="integ" name="n_integ" type="number" class="validate" required="required">
 									<label for="integ" data-error="Digite apenas números">Quant. de integrantes</label>
 								</div>
 							</div>
