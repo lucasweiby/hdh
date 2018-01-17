@@ -9,7 +9,7 @@
 				<div class="row hide-on-small-only">
 					<div class="col lg12 m12">
 						<div class="text-contact" style="text-align: center;">
-							<h1 class="um">Increva-se para a nossa 6666ª edição!*</h1>
+							<h1 class="um">Increva-se para a nossa 3ª edição!*</h1>
 							<p class="dois">*O atual período de inscrição é apenas para GRUPOS COVER que participaram da segunda edição.</p>
 						</div>
 					</div>

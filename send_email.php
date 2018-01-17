@@ -62,10 +62,8 @@ $hora_envio = date('H:i:s');
   $enviaremail = mail($destino, $assunto, $arquivo, $headers);
 
   if($enviaremail){
-    $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-    echo " <meta http-equiv='refresh' content='10;URL=index.php#contact'>";
+    echo "sent";
   } else {
-    $mgm = "ERRO AO ENVIAR E-MAIL!";
-    echo "";
+    echo "error";
   }
 ?>

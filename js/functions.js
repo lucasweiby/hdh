@@ -36,6 +36,8 @@ $(document).ready(function(){
         window.location.hash = hash;
     });
     } // End if
+
+    $(".progress").hide()
 });
     $(window).scroll(function(){
     	if ($(this).scrollTop() > 100) {

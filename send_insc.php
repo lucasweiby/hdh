@@ -53,7 +53,7 @@ $hora_envio = date('H:i:s');
               $arquivo .= "<li>Nome: $nome | Nº documento: $numero </li>";
             }
 
- $arquivo .= "</ol>
+  $arquivo .= "</ol>
             </td>
           </tr>
           <tr>
