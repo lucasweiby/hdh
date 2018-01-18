@@ -53,8 +53,8 @@ $hora_envio = date('H:i:s');
               <ol>";
 
 
-            foreach ($integrantes as $nome => $numero) {
-              $arquivo .= "<li>Nome: $nome | Nº documento: $numero </li>";
+            foreach ($integrantes as $nome_integ => $numero_integ) {
+              $arquivo .= "<li>Nome: $nome_integ | Nº documento: $numero_integ </li>";
             }
 
   $arquivo .= "</ol>
