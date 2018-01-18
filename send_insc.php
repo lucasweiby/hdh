@@ -10,6 +10,7 @@ for ($i = 1; $i <= $n_integ; $i++) {
   $integrantes[$_POST['nome_integ'. $i]] = $_POST['n_integ'. $i];
 
 }
+$link_arq = $_POST['link_arq'];
 $link = $_POST['link'];
 $coreografo = $_POST['coreografo'];
 $data_envio = date('d/m/Y');
@@ -60,6 +61,9 @@ $hora_envio = date('H:i:s');
             </td>
           </tr>
           <tr>
+            <td width='320'>Link do vídeo: <b>$link_arq</b></td>
+          </tr>
+          <tr>
             <td width='320'>Link do vídeo: <b>$link</b></td>
           </tr>
           <tr>
@@ -75,7 +79,7 @@ $hora_envio = date('H:i:s');
   //enviar
   
   // emails para quem será enviado o formulário
-  $emailenviar = "hanadulhallyu@gmail.com";
+  $emailenviar = "lucas13662@gmail.com";
   $destino = $emailenviar;
   $assunto = "Inscrição - Hana dul Hallyu";
 

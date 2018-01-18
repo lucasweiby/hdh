@@ -2,8 +2,6 @@
 <?php include 'assets/head.php' ?>
 <body>
 	<main>
-		<?php include 'assets/nav.php' ?>
-
 		<section id="contact">
 			<div class="container">
 				<div class="row hide-on-small-only">
@@ -59,45 +57,17 @@
 										<label for="n_integ1" data-error="Digite apenas números">Nº documento oficial com foto</label>
 									</div>
 									<div class="input-field col s1">
-										<a id="botao-mais" class="btn-floating waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Inserir novo integrante"><i class="material-icons">add</i></a>
+										<a id="botao-mais" class="btn-floating waves-effect waves-light tooltipped" data-position="bottom" data-delay="50" data-tooltip="Inserir novo integrante" style="background-color: #F71290;"><i class="material-icons">add</i></a>
 									</div>
 								</div>
 							</div>
 
 							<h3 class="integrantes">ARQUIVOS DA INSCRIÇÃO</h3>
 							<div class="row">
-								<div class="col s4">
-									<div class="file-field input-field">
-										<div class="btn file">
-											<span><i class="material-icons">group</i></span>
-											<input type="file" name="anexo" id="logo">
-										</div>
-										<div class="file-path-wrapper">
-											<input class="file-path validate" type="text" placeholder="Logo do grupo (FUNDO TRANSPARENTE)">
-										</div>
-									</div>
-								</div>
-								<div class="col s4">
-									<div class="file-field input-field">
-										<div class="btn file">
-											<span><i class="material-icons">audiotrack</i></span>
-											<input type="file" required="required">
-										</div>
-										<div class="file-path-wrapper">
-											<input class="file-path validate" type="text" placeholder="Arquivo de áudio da apresentação">
-										</div>
-									</div>
-								</div>
-								<div class="col s4">
-									<div class="file-field input-field">
-										<div class="btn file">
-											<span><i class="material-icons">portrait</i></span>
-											<input type="file">
-										</div>
-										<div class="file-path-wrapper">
-											<input class="file-path validate" type="text" placeholder="Imagem do figurino de referência">
-										</div>
-									</div>
+								<div class="input-field col s12">
+									<input id="link_arq" name="link_arq" type="text" class="validate" required="required">
+									<label for="link_arq">Link dos arquivos da inscrição (Foto do figurino + Música da apresentação + Logo do grupo com fundo transparente).* </label>
+									<p style="font-weight: bold;">*OBS: Os arquivos devem ser upados em uma pasta contendo o nome do grupo e dentro da pasta os arquivos solicitados. Tutorial de como compartilhar com o <a href="https://support.google.com/drive/answer/7166529?co=GENIE.Platform%3DDesktop&hl=pt-BR" target="_blank" style="text-decoration: none;">Google Drive</a> e <a href="https://www.dropbox.com/pt_BR/help/files-folders/share-file-or-folder" target="_blank" style="text-decoration: none;">Dropbox</a>.</p>
 								</div>
 							</div>
 							<div class="row">
