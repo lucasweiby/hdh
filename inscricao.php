@@ -17,8 +17,8 @@
 							<h3 class="integrantes">Dados do grupo</h3>
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
-									<input id="nome_g" name="nome_g" type="text" class="validate" required="required">
-									<label for="nome_g">Nome do grupo ou participante</label>
+									<input id="nome" name="nome" type="text" class="validate" required="required">
+									<label for="nome">Nome do grupo ou participante</label>
 								</div>
 								<div class="input-field col lg6 m6 s6">
 									<select name="categoria" id="categoria" required="required">

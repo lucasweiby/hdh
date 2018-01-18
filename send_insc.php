@@ -1,7 +1,7 @@
 <?php
 
 //Variáveis
-$nome_g = $_POST['nome_g'];
+$nome = $_POST['nome'];
 $categoria = $_POST['categoria'];
 $email_rep = $_POST['email_rep'];
 $n_integ = $_POST['n_integ'];
@@ -37,7 +37,7 @@ $hora_envio = date('H:i:s');
     <html>
         <table width='510' cellpadding='1' cellspacing='1'>
           <tr>
-           <td width='500'>Nome do grupo: $nome_g</td>
+           <td width='500'>Nome do grupo: $nome</td>
           </tr>
           <tr>
            <td width='500'>Categoria: $categoria</td>
