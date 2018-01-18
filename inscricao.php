@@ -99,7 +99,7 @@
 		      <p>Finalize o preenchimento dos dados do integrante atual para adicionar um novo.</p>
 		    </div>
 		    <div class="modal-footer">
-		      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Entendi</a>
+		      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight: bold;">Entendi</a>
 		    </div>
 		  </div>
 

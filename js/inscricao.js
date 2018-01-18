@@ -13,6 +13,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
             integrantes += "&nome_integ"+i+"="+nome+"&n_integ"+i+"="+numero;
         }
 
+        var link_arq = $('#link_arq').val();
         var link = $('#link').val();
         var coreografo = $('#coreografo').val();        
  

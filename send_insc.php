@@ -61,7 +61,7 @@ $hora_envio = date('H:i:s');
             </td>
           </tr>
           <tr>
-            <td width='320'>Link do vídeo: <b>$link_arq</b></td>
+            <td width='320'>Link dos arquivos: <b>$link_arq</b></td>
           </tr>
           <tr>
             <td width='320'>Link do vídeo: <b>$link</b></td>
