@@ -1,7 +1,7 @@
 $(document).ready( function(){ //Quando documento estiver pronto
     $('#enviar').click( function(){ /* Quando clicar em #btn */
         /* Coletando dados */
-        var nome  = $('#nome').val();
+        var nome_g  = $('#nome_g').val();
         var categoria  = $('#categoria').val();
         var email_rep = $('#email_rep').val();
         var n_integ   = $('#n_integ').val();
@@ -18,7 +18,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
         var coreografo = $('#coreografo').val();        
  
         /* construindo url */
-        var urlData = "&nome=" + nome +
+        var urlData = "&nome_g=" + nome_g +
         "&categoria=" + categoria +
         "&email_rep=" + email_rep +
         "&n_integ=" + n_integ +
