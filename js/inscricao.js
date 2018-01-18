@@ -22,7 +22,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
         "&categoria=" + categoria +
         "&email_rep=" + email_rep +
         "&n_integ=" + n_integ +
-        integrantes +
+        integrantes + "&link_arq=" + link_arq +
         "&link=" + link +
         "&coreografo=" + coreografo;
  
