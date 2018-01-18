@@ -18,7 +18,7 @@
 							<div class="row">
 								<div class="input-field col lg6 m6 s6">
 									<input id="nome" name="nome" type="text" class="validate" required="required">
-									<label for="nome">Nome do grupo ou participante</label>
+									<label for="name">Nome do grupo ou participante</label>
 								</div>
 								<div class="input-field col lg6 m6 s6">
 									<select name="categoria" id="categoria" required="required">
@@ -38,7 +38,7 @@
 								</div>
 								<div class="input-field col lg2 m2 s2">
 									<input id="n_integ" name="n_integ" type="number" class="validate" required="required">
-									<label for="n_integ" data-error="Digite apenas números">Quant. de integrantes</label>
+									<label for="integ" data-error="Digite apenas números">Quant. de integrantes</label>
 								</div>
 							</div>
 
