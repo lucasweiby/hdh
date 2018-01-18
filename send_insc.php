@@ -53,8 +53,8 @@ $hora_envio = date('H:i:s');
               <ol>";
 
 
-            foreach ($integrantes as $nome_integ => $numero_integ) {
-              $arquivo .= "<li>Nome: $nome_integ | Nº documento: $numero_integ </li>";
+            foreach ($integrantes as $nome => $numero) {
+              $arquivo .= "<li>Nome: $nome | Nº documento: $numero </li>";
             }
 
   $arquivo .= "</ol>
@@ -79,7 +79,7 @@ $hora_envio = date('H:i:s');
   //enviar
   
   // emails para quem será enviado o formulário
-  $emailenviar = "lucas_weiby@alu.ufc.br";
+  $emailenviar = "hanadulhallyu@gmail.com";
   $destino = $emailenviar;
   $assunto = "Inscrição - Hana dul Hallyu";
 
