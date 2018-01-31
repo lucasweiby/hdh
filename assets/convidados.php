@@ -10,6 +10,7 @@
 					</div>
 					<h3 class="team-name">Nina Andrade</h3>
 					<p class="team-function">K-Pop Girls</p>
+					<label for="team-function">15h30</label>
 					<!-- <div class="text">
 						<p class="team-desc">Vocalista da Banda Adores<br>Percursionista da Orquestra Sinfônica da UECE</p>
 					</div> -->
@@ -22,7 +23,8 @@
 						<img src="img/workshops/2ed/norbit.jpg" class="team-pic circle responsive-img">
 					</div>
 					<h3 class="team-name">Nalbert Albuquerque</h3>
-					<p class="team-function">Hip Hop Contemporâneo</p>
+					<p class="team-function">Hip Hop Lírico</p>
+					<label for="team-function">17h30</label>
 					<!-- <div class="text">
 						<p class="team-desc">Professor da Mova Dance Studio<br>Dançarino do Tsubasa Dance Group<br>1º Grande Lugar no K-POP World Festival - 2016</p>
 					</div> -->
@@ -36,6 +38,7 @@
 					</div>
 					<h3 class="team-name">Manu Gadelha</h3>
 					<p class="team-function">Hip Hop Divas</p>
+					<label for="team-function">19h30</label>
 					<!-- <div class="text">
 						<p class="team-desc">Professor da Lia Ary Dance Studio<br>Dançarino do Side Project<br>Tetra Campeão do FCH2</p>
 					</div> -->
