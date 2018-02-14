@@ -21,8 +21,8 @@ body {
 
 .nav-item {
   color: $default-blue;
-  font-family: $default-font;
-  font-weight: bold;
+  font-family: $text-font;
+  font-weight: lighter;
 }
 
 .nav-img {
@@ -60,7 +60,7 @@ body {
       height: 350px;
     }
     h3 {
-      font-family: $default-font;
+      font-family: $text-font;
       color: $default-pink;
       font-weight: bolder;
       @include mobile {
@@ -92,7 +92,7 @@ body {
   .title-cont {
     text-align: center;
     color: $default-blue;
-    font-family: $default-font;
+    font-family: $text-font;
     margin: 50px 0 -20px;
     .destaque {
       color: $default-pink;
@@ -167,7 +167,7 @@ body {
     width: 100%;
   }
   h2 {
-    font-family: $default-font;
+    font-family: $text-font;
     color: white;
     font-weight: bold;
     margin-bottom: 1px; 
@@ -188,7 +188,7 @@ body {
       padding: 1px;
     }
     @include tablet {
-      padding: 50px;
+      padding: 10px;
     }
     @include mobile {
       padding: 0 2px;
@@ -349,6 +349,7 @@ body {
     h1 {
       color: $default-pink;
       font-weight: bold;
+      font-family: $text-font;
       @include tablet {
         font-size: 40px;
       }
@@ -442,101 +443,101 @@ footer {
 }
 
 // .about-body {
-//   background: url('../img/eu.png');
-//   background-size: cover;
-// }
+  //   background: url('../img/eu.png');
+  //   background-size: cover;
+  // }
 
-.gallery {
-  h3 {
-    font-family: $default-font;
-    font-weight: bold;
-    color: $default-blue;
-    margin: 100px 0 20px;
-    text-align: center;
-    @include mobile {
-      font-size: 18px;
-      margin: 50px 0 5px;
-    }
-  }
-  @import '_gallery';
-}
-
-.about-box {
-  margin-bottom: 5%;
-  .about-title-box {
-    font-family: $default-font;
-    color: $default-white;
-    background: url('../img/about.png');
-    text-align: center;
-    padding: 10px;
-    font-weight: bolder;
-    @include mobile {
-      h1 {
-        font-size: 30px;
-      }
-    }
-  }
-  .about-title-box-1 {
-    font-family: $default-font;
-    color: $default-white;
-    background-color: $default-pink;
-    text-align: center;
-    padding: 10px;
-    font-weight: bolder;
-    @include mobile {
-      h5 {
-        font-size: 15px;
-      }
-    }
-  }
-  .slider {
-    @include mobile {
-      height: 360px !important;
-    }
-    .slides {
-     @include mobile {
-       height: 300px !important;
-     }
-     li, ul {
+  .gallery {
+    h3 {
+      font-family: $default-font;
+      font-weight: bold;
+      color: $default-blue;
+      margin: 100px 0 20px;
+      text-align: center;
       @include mobile {
-        height: 300px;
+        font-size: 18px;
+        margin: 50px 0 5px;
+      }
+    }
+    @import '_gallery';
+  }
+
+  .about-box {
+    margin-bottom: 5%;
+    .about-title-box {
+      font-family: $default-font;
+      color: $default-white;
+      background: url('../img/about.png');
+      text-align: center;
+      padding: 10px;
+      font-weight: bolder;
+      @include mobile {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+    .about-title-box-1 {
+      font-family: $default-font;
+      color: $default-white;
+      background-color: $default-pink;
+      text-align: center;
+      padding: 10px;
+      font-weight: bolder;
+      @include mobile {
+        h5 {
+          font-size: 15px;
+        }
+      }
+    }
+    .slider {
+      @include mobile {
+        height: 360px !important;
+      }
+      .slides {
+       @include mobile {
+         height: 300px !important;
+       }
+       li, ul {
+        @include mobile {
+          height: 300px;
+        }
       }
     }
   }
-}
-img {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-  @include mobile {
-    width: 150px;
+  img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    @include mobile {
+      width: 150px;
+    }
   }
-}
-p {
-  font-family: $text-font;
-  text-align: center;
-}
-.row {
-  padding: 15px;
-}
-a {
-  display: block;
-  margin: 0 auto;
-  background-color: $default-pink;
-  :hover {
+  p {
+    font-family: $text-font;
+    text-align: center;
+  }
+  .row {
+    padding: 15px;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
     background-color: $default-pink;
+    :hover {
+      background-color: $default-pink;
+    }
   }
-}
 }
 
 .map {
   width: 100%;
   height: auto;
   h3 {
-    font-family: $default-font;
+    font-family: $text-font;
     color: $default-pink;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
     @include mobile {
       font-size: 25px;
     }

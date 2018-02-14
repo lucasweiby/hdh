@@ -17,8 +17,8 @@ body {
 
 .nav-item {
   color: #6699ff;
-  font-family: "Bubbler One", sans-serif;
-  font-weight: bold; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter; }
 
 .nav-img {
   height: 40px;
@@ -52,7 +52,7 @@ body {
       .box-sobre .about-card {
         height: 350px; } }
     .box-sobre .about-card h3 {
-      font-family: "Bubbler One", sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #F71290;
       font-weight: bolder; }
       @media only screen and (max-width: 600px) {
@@ -74,7 +74,7 @@ body {
 #box-countdown .title-cont {
   text-align: center;
   color: #6699ff;
-  font-family: "Bubbler One", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 50px 0 -20px; }
   #box-countdown .title-cont .destaque {
     color: #F71290;
@@ -137,7 +137,7 @@ body {
     .convidados {
       width: 100%; } }
   .convidados h2 {
-    font-family: "Bubbler One", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
     font-weight: bold;
     margin-bottom: 1px; }
@@ -157,7 +157,7 @@ body {
         padding: 1px; } }
     @media only screen and (min-width: 600px) and (max-width: 992px) {
       .convidados .box {
-        padding: 50px; } }
+        padding: 10px; } }
     @media only screen and (max-width: 600px) {
       .convidados .box {
         padding: 0 2px; } }
@@ -293,7 +293,8 @@ body {
     font-family: "Bubbler One", sans-serif; }
     #contact .text-contact h1 {
       color: #F71290;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif; }
       @media only screen and (min-width: 600px) and (max-width: 992px) {
         #contact .text-contact h1 {
           font-size: 40px; } }
@@ -460,10 +461,10 @@ footer {
   width: 100%;
   height: auto; }
   .map h3 {
-    font-family: "Bubbler One", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #F71290;
     text-align: center;
-    font-weight: bold; }
+    font-weight: 400; }
     @media only screen and (max-width: 600px) {
       .map h3 {
         font-size: 25px; } }
@@ -504,19 +505,6 @@ footer {
       display: block;
       margin: 0 auto;
       padding: 0 200px; }
-  .ary .line {
-    border-bottom: 2px solid #F71290;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px 0; }
-    @media only screen and (min-width: 600px) and (max-width: 992px) {
-      .ary .line {
-        padding: 10px 0;
-        max-width: 200px; } }
-    @media only screen and (max-width: 600px) {
-      .ary .line {
-        padding: 10px 0;
-        max-width: 200px; } }
   .ary .desc {
     text-align: justify;
     font-family: "Open Sans", sans-serif; }

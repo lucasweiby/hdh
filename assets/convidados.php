@@ -1,9 +1,9 @@
 <section id="convidados" class="convidados">
 	<div class="container">
 		<h2 class="workshops">WORKSHOPS</h2>
-		<div class="line"></div>
+		<!-- <div class="line"></div> -->
 		<div class="row">
-			<div class="box col xl4 l4 m12 s12">
+			<div class="box col xl4 l4 m4 s12">
 				<div class="team-member hvr-grow" >
 					<div class="image">
 						<img src="img/workshops/3ed/nina.jpg" class="team-pic circle responsive-img">
@@ -17,7 +17,7 @@
 				</div>
 				<!-- /.team-member -->
 			</div>
-			<div class="box col xl4 l4 m12 s12">
+			<div class="box col xl4 l4 m4 s12">
 				<div class="team-member" hvr-grow >
 					<div class="image">
 						<img src="img/workshops/2ed/norbit.jpg" class="team-pic circle responsive-img">
@@ -31,7 +31,7 @@
 				</div>
 				<!-- /.team-member -->
 			</div>
-			<div class="box col xl4 l4 m12 s12">
+			<div class="box col xl4 l4 m4 s12">
 				<div class="team-member hvr-grow" >
 					<div class="image">
 						<img src="img/workshops/3ed/manu.jpg" class="team-pic circle responsive-img">
