@@ -7,7 +7,7 @@
 				<div class="row">
 					<div class="col lg12 m12">
 						<div class="text-contact" style="text-align: center;">
-							<h1 class="um">Increva-se para a nossa 3ª edição!*</h1>
+							<h1 class="um">Increva-se para a nossa 3ª edição!</h1>
 						</div>
 					</div>
 

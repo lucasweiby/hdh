@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Hana, dul... HALLYU!</title>
 <link rel="shortcut icon" href="img/hdh-logo.ico" type="image/x-icon">
 <!--Import Google Icon Font-->
