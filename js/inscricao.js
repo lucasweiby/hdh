@@ -3,6 +3,7 @@ $(document).ready( function(){ //Quando documento estiver pronto
         /* Coletando dados */
         var nome  = $('#nome').val();
         var categoria  = $('#categoria').val();
+        var nome_rep = $('#nome_rep').val();
         var email_rep = $('#email_rep').val();
         var n_integ   = $('#n_integ').val();
 
@@ -19,7 +20,8 @@ $(document).ready( function(){ //Quando documento estiver pronto
  
         /* construindo url */
         var urlData = "&nome=" + nome +
-        "&categoria=" + categoria +
+        "&categoria=" + categoria + 
+        "&nome_rep=" + nome_rep +
         "&email_rep=" + email_rep +
         "&n_integ=" + n_integ +
         integrantes + "&link_arq=" + link_arq +

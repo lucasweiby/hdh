@@ -32,7 +32,11 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="input-field col lg10 m10 s10">
+								<div class="input-field col lg5 m5 s5">
+									<input id="nome_rep" name="nome_rep" type="text" class="validate" required="required">
+									<label for="nome_rep">Nome do representante + Nome do grupo (para confirmação)</label>
+								</div>
+								<div class="input-field col lg5 m5 s5">
 									<input id="email_rep" name="email_rep" type="email" class="validate" required="required">
 									<label for="email" data-error="E-mail inválido" data-success="Este e-mail é válido">E-mail do representante</label>
 								</div>
@@ -85,7 +89,8 @@
 							<div class="progress">
 						      <div class="indeterminate"></div>
 						  </div>
-							<input type="button" id="enviar" class="hvr-grow waves-effect waves-light btn" value="Enviar" />    
+							<input type="button" id="enviar" class="hvr-grow waves-effect waves-light btn btn-insc" value="Enviar" /> 
+							<input type="reset" id="enviar" class="hvr-grow waves-effect waves-light btn btn-insc" value="Limpar" />   
 						</form>
 					</div>
 				</div>

@@ -3,6 +3,7 @@
 //Variáveis
 $nome = $_POST['nome'];
 $categoria = $_POST['categoria'];
+$nome_rep = $_POST['nome_rep'];
 $email_rep = $_POST['email_rep'];
 $n_integ = $_POST['n_integ'];
 
@@ -41,6 +42,9 @@ $hora_envio = date('H:i:s');
           </tr>
           <tr>
            <td width='500'>Categoria: $categoria</td>
+          </tr>
+          <tr>
+            <td width='320'>Nome do representante + Nome do Grupo: <b>$nome_rep</b></td>
           </tr>
           <tr>
             <td width='320'>E-mail do representante: <b>$email_rep</b></td>

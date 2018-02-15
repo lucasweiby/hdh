@@ -525,7 +525,9 @@ footer {
   text-transform: uppercase;
   font-weight: bold; }
 
-#contact form .btn .file {
-  width: 20%; }
+#contact form .btn-insc {
+  width: auto;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 1%; }
 
 /*# sourceMappingURL=style.css.map */
