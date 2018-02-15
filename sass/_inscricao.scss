@@ -4,6 +4,11 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+	h3 {
+		@include mobile {
+			font-size: 20px;
+		}
+	}
 }
 
 #contact form .btn-insc {

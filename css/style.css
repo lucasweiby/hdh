@@ -286,6 +286,9 @@ body {
   #contact form label {
     font-weight: bold !important;
     color: #F71290; }
+    @media only screen and (max-width: 600px) {
+      #contact form label {
+        font-size: 10px; } }
   #contact form .btn, #contact form .btn-large {
     width: 100%;
     background-color: #F71290; }
@@ -524,6 +527,9 @@ footer {
   color: #6699ff;
   text-transform: uppercase;
   font-weight: bold; }
+@media only screen and (max-width: 600px) {
+  .insc h3 {
+    font-size: 20px; } }
 
 #contact form .btn-insc {
   width: auto;

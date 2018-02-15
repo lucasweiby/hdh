@@ -338,6 +338,9 @@ body {
     label {
       font-weight: bold !important;
       color: $default-pink;
+      @include mobile {
+        font-size: 10px;
+      }
     }
     .btn, .btn-large {
       width: 100%;
