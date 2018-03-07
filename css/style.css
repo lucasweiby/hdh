@@ -132,7 +132,7 @@ body {
   text-align: center;
   padding: 30px 30px 20px;
   height: auto;
-  margin: 20px 0; }
+  margin: 20px 0 0; }
   @media only screen and (max-width: 600px) {
     .convidados {
       width: 100%; } }
@@ -467,7 +467,7 @@ footer {
     font-family: "Open Sans", sans-serif;
     color: #F71290;
     text-align: center;
-    font-weight: 400; }
+    font-weight: 700; }
     @media only screen and (max-width: 600px) {
       .map h3 {
         font-size: 25px; } }
@@ -535,5 +535,35 @@ footer {
   width: auto;
   font-family: "Open Sans", sans-serif;
   margin-right: 1%; }
+
+.jurados {
+  margin-top: -1%;
+  width: 100%;
+  height: auto;
+  background-color: #6699ff; }
+  .jurados .line {
+    border-bottom: 3px solid #fff;
+    width: 15%;
+    margin: 0 auto;
+    padding: 10px 0; }
+  .jurados h2 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin: 2% 0;
+    text-align: center; }
+    @media only screen and (max-width: 600px) {
+      .jurados h2 {
+        font-size: 30px; } }
+  .jurados .card .card-title {
+    font-family: "Bubbler One", sans-serif;
+    font-weight: bold;
+    color: #F71290 !important; }
+  .jurados .card p {
+    font-family: "Open Sans", sans-serif;
+    color: grey; }
+  .jurados .card span {
+    color: #F71290; }
 
 /*# sourceMappingURL=style.css.map */

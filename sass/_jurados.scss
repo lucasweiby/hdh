@@ -1,0 +1,37 @@
+.jurados {
+    margin-top: -1%;
+    width: 100%;
+    height: auto;
+    background-color: $default-blue;
+    .line {
+        border-bottom: 3px solid #fff;
+        width: 15%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    h2 {
+        font-family: $text-font;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 1px; 
+        margin: 2% 0;
+        text-align: center;
+        @include mobile {
+            font-size: 30px;
+        }
+    }
+    .card {
+        .card-title {
+            font-family: $default-font;
+            font-weight: bold;
+            color: $default-pink !important;
+        }
+        p {
+            font-family: $text-font;
+            color: grey;
+        }
+        span {
+            color: $default-pink;
+        }
+    }
+}

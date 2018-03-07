@@ -45,40 +45,43 @@
 <body>
   <?php include 'assets/nav.php' ?>
 
-  
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="img/2ed/1.jpg"> <!-- random image -->
-      </li>
-      <li>
-        <img src="img/2ed/2.jpg"> <!-- random image -->
-      </li>
-      <li>
-        <img src="img/2ed/3.jpg"> <!-- random image -->
-      </li>
-      <li>
-        <img src="img/2ed/4.jpg"> <!-- random image -->
-      </li>
-      <li>
-        <img src="img/2ed/6.jpg"> <!-- random image -->
-      </li>
-    </ul>
-  </div>
+  <main>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/2ed/1.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="img/2ed/2.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="img/2ed/3.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="img/2ed/4.jpg"> <!-- random image -->
+        </li>
+        <li>
+          <img src="img/2ed/6.jpg"> <!-- random image -->
+        </li>
+      </ul>
+    </div>
 
-  <?php include 'assets/countdown.php' ?>
+    <?php include 'assets/countdown.php' ?>
 
-  <!-- <?php include 'assets/gallery-section.php' ?> -->
+    <!-- <?php include 'assets/gallery-section.php' ?> -->
 
-  <?php include 'assets/convidados.php' ?>
+    <?php include 'assets/convidados.php' ?>
 
-  <?php include 'assets/programacao.php' ?>
+    <!-- <?php include 'assets/jurados.php' ?> -->
 
-  <?php include 'assets/maps.php' ?>
+    <?php include 'assets/programacao.php' ?>
 
-  <?php include 'assets/about.php' ?>
+    <?php include 'assets/maps.php' ?>
 
-  <?php include 'assets/contact.php' ?>
+    <?php include 'assets/about.php' ?>
+
+    <?php include 'assets/contact.php' ?>
+  </main>
 
   <?php include 'assets/footer.php' ?>
 

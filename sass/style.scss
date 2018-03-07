@@ -162,7 +162,7 @@ body {
   text-align: center;
   padding: 30px 30px 20px;
   height: auto;
-  margin: 20px 0;
+  margin: 20px 0 0;
   @include mobile {
     width: 100%;
   }
@@ -540,7 +540,7 @@ footer {
     font-family: $text-font;
     color: $default-pink;
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
     @include mobile {
       font-size: 25px;
     }
@@ -563,3 +563,4 @@ footer {
 @import '_workshops';
 @import '_gallery_sec';
 @import '_inscricao';
+@import '_jurados';

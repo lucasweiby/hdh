@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="bower_components/hover/css/hover-min.css">
 <link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 <!--ICONS-->
 <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
