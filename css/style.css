@@ -560,10 +560,22 @@ footer {
     font-family: "Bubbler One", sans-serif;
     font-weight: bold;
     color: #F71290 !important; }
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+      .jurados .card .card-title {
+        font-size: 15px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .jurados .card .card-title {
+        font-size: 15px; } }
   .jurados .card p {
     font-family: "Open Sans", sans-serif;
     color: grey;
     font-size: 12px; }
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+      .jurados .card p {
+        font-size: 9px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .jurados .card p {
+        font-size: 9px; } }
   .jurados .card span {
     color: #F71290; }
 

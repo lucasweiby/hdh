@@ -25,11 +25,23 @@
             font-family: $default-font;
             font-weight: bold;
             color: $default-pink !important;
+            @include tablet {
+                font-size: 15px;
+            }
+            @include tablet-xm {
+                font-size: 15px;
+            }
         }
         p {
             font-family: $text-font;
             color: grey;
             font-size: 12px;
+            @include tablet {
+                font-size: 9px;
+            }
+            @include tablet-xm {
+                font-size: 9px;
+            }
         }
         span {
             color: $default-pink;
