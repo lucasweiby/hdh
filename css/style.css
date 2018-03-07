@@ -562,7 +562,8 @@ footer {
     color: #F71290 !important; }
   .jurados .card p {
     font-family: "Open Sans", sans-serif;
-    color: grey; }
+    color: grey;
+    font-size: 12px; }
   .jurados .card span {
     color: #F71290; }
 

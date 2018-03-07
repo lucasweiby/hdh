@@ -72,7 +72,7 @@
 
     <?php include 'assets/convidados.php' ?>
 
-    <!-- <?php include 'assets/jurados.php' ?> -->
+    <?php include 'assets/jurados.php' ?>
 
     <?php include 'assets/programacao.php' ?>
 
