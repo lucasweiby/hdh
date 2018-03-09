@@ -101,6 +101,12 @@ sr.reveal('.brand-logo', {
 	reset: true
 });
 
+sr.reveal('.card', {
+	origin: 'bottom',
+	viewFactor: 0.3,
+	reset: true
+}, 500);
+
 sr.reveal('.menu', {
 	delay: 500,
 	duration: 500,
