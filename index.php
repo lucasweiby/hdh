@@ -66,7 +66,7 @@
       </ul>
     </div>
 
-    <?php include 'assets/countdown.php' ?>
+<!--     <?php include 'assets/countdown.php' ?> -->
 
     <!-- <?php include 'assets/gallery-section.php' ?> -->
 
