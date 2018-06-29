@@ -132,7 +132,7 @@ body {
   text-align: center;
   padding: 30px 30px 20px;
   height: auto;
-  margin: 20px 0 0; }
+  margin: 0; }
   @media only screen and (max-width: 600px) {
     .convidados {
       width: 100%; } }
@@ -578,5 +578,48 @@ footer {
         font-size: 9px; } }
   .jurados .card span {
     color: #F71290; }
+
+#editais {
+  text-align: center; }
+  #editais .editais-title {
+    font-family: "Open Sans", sans-serif;
+    color: #F71290;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 5%; }
+  #editais .edital-img {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30%;
+    transition: transform .5s ease; }
+    #editais .edital-img:hover {
+      transform: scale(1.1); }
+  #editais .edital-title {
+    margin: 5% 0 0 0;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #6699ff;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase; }
+    #editais .edital-title b {
+      font-size: 20px;
+      color: #F71290; }
+  #editais .edital-btn {
+    background-color: #F71290;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    transition: transform .5s ease; }
+    #editais .edital-btn:hover {
+      transform: scale(1.1); }
+  #editais .modal {
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 5%; }
+    #editais .modal .logo {
+      padding: 5% 20%; }
+    #editais .modal .edital-stand {
+      text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */

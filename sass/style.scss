@@ -162,7 +162,7 @@ body {
   text-align: center;
   padding: 30px 30px 20px;
   height: auto;
-  margin: 20px 0 0;
+  margin: 0;
   @include mobile {
     width: 100%;
   }
@@ -564,3 +564,59 @@ footer {
 @import '_gallery_sec';
 @import '_inscricao';
 @import '_jurados';
+
+
+#editais {
+  text-align: center;
+  .editais-title {
+    font-family: $text-font;
+    color: $default-pink;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+  }
+  .edital-img {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30%;
+    transition: transform .5s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .edital-title {
+    margin: 5% 0 0 0; 
+    font-size: 30px;
+    font-family: $text-font;
+    color: $default-blue;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    b {
+      font-size: 20px;
+      color: $default-pink;
+    }
+  }
+  .edital-btn {
+    background-color: $default-pink;
+    font-weight: 700;
+    font-family: $text-font;
+    transition: transform .5s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .modal {
+    width: 80%;
+    font-family: $text-font;
+    padding: 0 5%;
+    .logo {
+      padding: 5% 20%;
+    }
+    .edital-stand {
+      text-align: justify;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$(".progress").hide()
+	$(".progress").hide();
+
+	$(".drop").dropdown();
 	
 	$('.button-collapse').sideNav();
 

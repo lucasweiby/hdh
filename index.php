@@ -49,20 +49,20 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="img/2ed/1.jpg"> <!-- random image -->
+          <img src="img/3ed/1.jpg">
         </li>
         <li>
-          <img src="img/2ed/2.jpg"> <!-- random image -->
+          <img src="img/3ed/2.jpg">
         </li>
         <li>
-          <img src="img/2ed/3.jpg"> <!-- random image -->
+          <img src="img/3ed/3.jpg">
         </li>
         <li>
-          <img src="img/2ed/4.jpg"> <!-- random image -->
+          <img src="img/3ed/4.jpg">
         </li>
-        <li>
-          <img src="img/2ed/6.jpg"> <!-- random image -->
-        </li>
+        <!-- <li>
+          <img src="img/2ed/6.jpg">
+        </li> -->
       </ul>
     </div>
 
