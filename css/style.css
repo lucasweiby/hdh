@@ -595,6 +595,14 @@ footer {
     transition: transform .5s ease; }
     #editais .edital-img:hover {
       transform: scale(1.1); }
+  #editais .um {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE */
+    transition: transform .5s ease; }
+    #editais .um:hover {
+      transform: scale(1.1); }
   #editais .edital-title {
     margin: 5% 0 0 0;
     font-size: 30px;
@@ -606,6 +614,10 @@ footer {
     #editais .edital-title b {
       font-size: 20px;
       color: #F71290; }
+  #editais .text {
+    color: gray; }
+    #editais .text b {
+      color: black; }
   #editais .edital-btn {
     background-color: #F71290;
     font-weight: 700;
@@ -613,6 +625,9 @@ footer {
     transition: transform .5s ease; }
     #editais .edital-btn:hover {
       transform: scale(1.1); }
+  #editais .btn-text {
+    background-color: #000;
+    color: white; }
   #editais .modal {
     width: 80%;
     font-family: "Open Sans", sans-serif;

@@ -585,6 +585,15 @@ footer {
       transform: scale(1.1);
     }
   }
+  .um {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE */
+    transition: transform .5s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
   .edital-title {
     margin: 5% 0 0 0; 
     font-size: 30px;
@@ -598,6 +607,13 @@ footer {
       color: $default-pink;
     }
   }
+  .text {
+    color: gray;
+    b {
+      color: black;
+    }
+  }
+
   .edital-btn {
     background-color: $default-pink;
     font-weight: 700;
@@ -606,6 +622,11 @@ footer {
     &:hover {
       transform: scale(1.1);
     }
+  }
+  
+  .btn-text {
+    background-color: #000;
+    color: white;
   }
 
   .modal {

@@ -33,9 +33,9 @@
 					<a href="#stand" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>	
 				</div>
 				<div class="col xl6 l6 m6 s12 ">
-					<img src="img/dance.png" alt="" class="responsive-img edital-img">	
-					<h3 class="edital-title">Edital para Competidores<br><b>4ª edição</b></h3>
-					<a href="#" class="edital-btn competidores waves-effect waves-light btn">VER EDITAL</a>
+					<img src="img/dance.png" alt="" class="responsive-img edital-img um">	
+					<h3 class="edital-title text">Edital para Competidores<br><b>4ª edição</b></h3>
+					<a href="#" class="edital-btn competidores waves-effect waves-light btn btn-text">EM BREVE</a>
 				</div>
 			</div>
 
