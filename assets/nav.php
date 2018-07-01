@@ -27,7 +27,7 @@
 				<!-- 				<li><a class="nav-item modal-trigger" data-position="bottom" data-delay="50" href="#modal-edit"><i class="material-icons">insert_invitation</i>Inscreva-se</a></li> -->
 			<!-- <li><a class="nav-item" href="#convidados"><i class="large material-icons">group_work</i>Workshops</a></li>
 				<li><a class="nav-item" href="#programacao"><i class="large material-icons">timer</i>Programação</a></li> -->
-				<li><a class="nav-item drop" href="editais.php">Editais</a></li>
+				<li><a class="nav-item drop" href="editais.php"><i class="large material-icons">assignment</i>Editais</a></li>
 				<li><a class="nav-item" href="#contact"><i class="large material-icons">perm_phone_msg</i>Contato</a></li>
 			</ul>
 		</div>

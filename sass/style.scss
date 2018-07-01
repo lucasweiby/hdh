@@ -568,6 +568,7 @@ footer {
 
 #editais {
   text-align: center;
+  margin: 5% 0;
   .editais-title {
     font-family: $text-font;
     color: $default-pink;
@@ -575,6 +576,9 @@ footer {
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 5%;
+    @include mobile {
+      margin: 10% 0;
+    }
   }
   .edital-img {
     display: block;
@@ -606,6 +610,12 @@ footer {
       font-size: 20px;
       color: $default-pink;
     }
+    @include mobile {
+      font-size: 20px;
+      b {
+        font-size: 10px;
+      }
+    }
   }
   .text {
     color: gray;
@@ -619,11 +629,21 @@ footer {
     font-weight: 700;
     font-family: $text-font;
     transition: transform .5s ease;
+    margin: 0 1%;
     &:hover {
       transform: scale(1.1);
     }
+    @include mobile {
+      font-size: 10px;
+    }
   }
   
+  .box {
+    @include mobile {
+      margin: 5% 0;
+    }
+  }
+
   .btn-text {
     background-color: #000;
     color: white;

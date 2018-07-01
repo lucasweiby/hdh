@@ -27,12 +27,13 @@
 		<section id="editais">
 			<h2 class="editais-title">Editais</h2>
 			<div class="row">
-				<div class="col xl6 l6 m6 s12 ">
+				<div class="col xl6 l6 m6 s12 box">
 					<img src="img/shop.png" alt="" class="responsive-img edital-img">
 					<h3 class="edital-title">Edital para Stands<br><b>4ª edição</b></h3>
 					<a href="#stand" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>	
+					<a href="#insc" class="edital-btn stand waves-effect waves-light btn modal-trigger">CREDENCIAR-SE</a>	
 				</div>
-				<div class="col xl6 l6 m6 s12 ">
+				<div class="col xl6 l6 m6 s12 box">
 					<img src="img/dance.png" alt="" class="responsive-img edital-img um">	
 					<h3 class="edital-title text">Edital para Competidores<br><b>4ª edição</b></h3>
 					<a href="#" class="edital-btn competidores waves-effect waves-light btn btn-text">EM BREVE</a>
@@ -79,7 +80,7 @@
 						Conta Corrente: 48205-6
 						Agencia: 2999-8
 
-						OBS: a não realização do depósito bancário dentro do prazo estabelecido será interpretado como desistência da loja, sem revogação da vaga.
+						OBS: a não realização do depósito bancário dentro do prazo estabelecido será interpretado como desistência da loja, sem revogação da vaga. <br><br>
 
 						<b>4. DAS RESPONSABILIDADES DO EVENTO</b> <br><br>
 
@@ -110,8 +111,22 @@
 					<a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
 				</div>
 			</div>
+
+			<div id="insc" class="modal">
+				<img src="img/hdh-logo.png" alt="" class="logo responsive-img">
+				<div class="modal-content">
+					<h4>Formulário de credenciamento de Stands - 4ª edição</h4>
+					<p>Antes prosseguir, você confirma que leu e compreendeu o edital e concorda com todos os termos nele presentes?</p>
+				</div>
+				<div class="modal-footer">
+					<a href="https://docs.google.com/forms/d/10I8KGyD8XM1PIbYKaoqLClTo2vvO3GBYFKvAir6GPPo/viewform?edit_requested=true" target="_blank" class="modal-close waves-effect waves-green btn-flat edital-btn" style="color: white;">Concordo</a>
+					<a href="#!" class="modal-close waves-effect waves-green btn-flat">Discordo</a>
+				</div>
+			</div>
 		</section>
 	</main>
+
+	<?php include 'assets/footer.php' ?>
 
 	<?php include 'assets/scripts.php'; ?>
 </body>

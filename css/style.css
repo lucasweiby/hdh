@@ -580,7 +580,8 @@ footer {
     color: #F71290; }
 
 #editais {
-  text-align: center; }
+  text-align: center;
+  margin: 5% 0; }
   #editais .editais-title {
     font-family: "Open Sans", sans-serif;
     color: #F71290;
@@ -588,6 +589,9 @@ footer {
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 5%; }
+    @media only screen and (max-width: 600px) {
+      #editais .editais-title {
+        margin: 10% 0; } }
   #editais .edital-img {
     display: block;
     margin: 0 auto;
@@ -614,6 +618,11 @@ footer {
     #editais .edital-title b {
       font-size: 20px;
       color: #F71290; }
+    @media only screen and (max-width: 600px) {
+      #editais .edital-title {
+        font-size: 20px; }
+        #editais .edital-title b {
+          font-size: 10px; } }
   #editais .text {
     color: gray; }
     #editais .text b {
@@ -622,9 +631,16 @@ footer {
     background-color: #F71290;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    transition: transform .5s ease; }
+    transition: transform .5s ease;
+    margin: 0 1%; }
     #editais .edital-btn:hover {
       transform: scale(1.1); }
+    @media only screen and (max-width: 600px) {
+      #editais .edital-btn {
+        font-size: 10px; } }
+  @media only screen and (max-width: 600px) {
+    #editais .box {
+      margin: 5% 0; } }
   #editais .btn-text {
     background-color: #000;
     color: white; }
