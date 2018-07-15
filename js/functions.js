@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$(".progress").hide();
 
+	$('.tooltipped').tooltip();
+
 	$(".drop").dropdown();
 	
 	$('.button-collapse').sideNav();
