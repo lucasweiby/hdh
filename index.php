@@ -70,10 +70,6 @@
 
     <!-- <?php include 'assets/gallery-section.php' ?> -->
 
-    <!-- <?php include 'assets/convidados.php' ?> -->
-
-    <!-- <?php include 'assets/jurados.php' ?> -->
-
     <?php include 'assets/programacao.php' ?>
 
     <?php include 'assets/maps.php' ?>
