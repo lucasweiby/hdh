@@ -10,6 +10,9 @@
 		<div class="slider">
 			<ul class="slides">
 				<li>
+					<img src="img/insc.png">
+				</li>
+				<li>
 					<img src="img/3ed/1.jpg">
 				</li>
 				<li>
@@ -30,13 +33,13 @@
 				<div class="col xl6 l6 m6 s12 box">
 					<img src="img/shop.png" alt="" class="responsive-img edital-img">
 					<h3 class="edital-title">Edital para Stands<br><b>4ª edição</b></h3>
-					<a href="#stand" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>	
-					<a href="#" class="edital-btn stand waves-effect waves-light btn modal-trigger btn-text tooltipped" data-position="top" data-tooltip="Encerrado">CREDENCIAR-SE</a>	
+					<a href="#stand" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>
+					<a href="#" class="edital-btn stand waves-effect waves-light btn modal-trigger btn-text tooltipped" data-position="top" data-tooltip="Encerrado">CREDENCIAR-SE</a>
 				</div>
 				<div class="col xl6 l6 m6 s12 box">
-					<img src="img/dance.png" alt="" class="responsive-img edital-img">	
+					<img src="img/dance.png" alt="" class="responsive-img edital-img">
 					<h3 class="edital-title">Edital para Competidores<br><b>4ª edição</b></h3>
-					<a href="#comp" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>	
+					<a href="#comp" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>
 				</div>
 			</div>
 
