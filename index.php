@@ -49,6 +49,9 @@
     <div class="slider">
       <ul class="slides">
         <li>
+          <img class="reponsive-img" src="img/insc.png">
+        </li>
+        <li>
           <img src="img/3ed/1.jpg">
         </li>
         <li>
@@ -66,7 +69,7 @@
       </ul>
     </div>
 
-<!--     <?php include 'assets/countdown.php' ?> -->
+    <?php include 'assets/countdown.php' ?>
 
     <!-- <?php include 'assets/gallery-section.php' ?> -->
 
@@ -89,7 +92,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  
+
   <!-- FUNCTIONS -->
   <script type="text/javascript" src="js/functions.js"></script>
   <script type="text/javascript" src="js/function_countdown.js"></script>

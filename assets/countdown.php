@@ -1,11 +1,11 @@
 <section id="box-countdown">
 	<div class="container">
 		<div class="row title-cont hide-on-small-only">
-			<h4 id="count">Estamos rumo a <strong class="destaque">3ª EDIÇÃO</strong></h4>
-			<label for="count" style="font-weight: bold;">10/03/2018</label>
+			<h4 id="count">Prepare-se para a <strong class="destaque">4ª EDIÇÃO</strong></h4>
+			<label for="count" style="font-weight: bold;">18/08/2018</label>
 		</div>
 		<div class="row title-cont hide-on-med-and-up">
-			<h4>Estamos rumo a <br><strong class="destaque">3ª EDIÇÃO</strong></h4>
+			<h4>Prepare-se para a<br><strong class="destaque">4ª EDIÇÃO</strong></h4>
 		</div>
 		<div class="row">
 			<div class="col xl12 l12 m12 s12">
@@ -23,7 +23,7 @@
 						<td class="legend-cont">Segundos</td>
 					</tr>
 				</table>
-			</div>				
+			</div>
 		</div>
-	</div>			
+	</div>
 </section>

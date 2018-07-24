@@ -478,7 +478,10 @@ footer {
     font-weight: tiny; }
     @media only screen and (max-width: 600px) {
       .map .end {
-        font-size: 15px; } }
+        font-size: 12px; } }
+    @media only screen and (max-width: 600px) {
+      .map .end i {
+        font-size: 12px; } }
   .map #map {
     width: 100%;
     height: 400px; }
@@ -652,5 +655,12 @@ footer {
       padding: 5% 20%; }
     #editais .modal .edital-stand {
       text-align: justify; }
+
+@media only screen and (max-width: 600px) {
+  .slider {
+    height: 200px !important; } }
+@media only screen and (max-width: 600px) {
+  .slider .slides {
+    height: 200px !important; } }
 
 /*# sourceMappingURL=style.css.map */

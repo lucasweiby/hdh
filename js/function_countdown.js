@@ -1,6 +1,6 @@
 function countdown(){
 	var now = new Date();
-	var eventDate = new Date(2018, 02, 11);
+	var eventDate = new Date(2018, 07, 18);
 
 	var currentTiime = now.getTime();
 	var eventTime = eventDate.getTime();
