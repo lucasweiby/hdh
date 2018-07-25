@@ -40,6 +40,7 @@
 					<img src="img/dance.png" alt="" class="responsive-img edital-img">
 					<h3 class="edital-title">Edital para Competidores<br><b>4ª edição</b></h3>
 					<a href="#comp" class="edital-btn stand waves-effect waves-light btn modal-trigger">VER EDITAL</a>
+					<a href="https://docs.google.com/forms/d/1s3HNfp8ExyQ9CG5AO0pSKK5Jw-699AJXY8lRYMolr94/edit" target="_blank" class="edital-btn stand waves-effect waves-light btn modal-trigger">INSCREVA-SE</a>
 				</div>
 			</div>
 
